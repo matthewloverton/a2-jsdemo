@@ -1,0 +1,5275 @@
+{
+	"Characters": [
+		{
+			"Id": "agentcoulson",
+			"Name": "Agent Coulson",
+			"Aliases": ["coulson", "s.h.i.e.l.d"],
+			"Tags": ["Hero", "Global", "Tech", "Protector", "Avenger", "Shield"],
+			"Portrait_URL": "https://i.postimg.cc/j28Lz42D/agentcoulson.png",
+			"Health": 98427,
+			"Damage": 9101,
+			"Armor": 7274,
+			"Focus": 2122,
+			"Resistance": 3119,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Night-Night Gun",
+					"Description": "Attack primary target for X% damage + chain to X - X additional targets for X% damage. Change Turn Meter by -X% on primary target."
+				},
+				"Special": {
+					"Name": "EMP Punch",
+					"Description": "Attack primary target for X% damage + other enemies for X% damage. In War, copy all positive effects from the primary target to __Nick Fury__, then flip all positive effects on the primary target. Clear all positive effects on all enemies.",
+					"Starting Energy": 4,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Teamwork",
+					"Description": "Apply **Defense Down** to primary target. Apply **Assist Now** to X allies. If those allies are __Shield__, apply **Offense Up** to them. Attack all enemies for X% damage.",
+					"Starting Energy": 5,
+					"Energy Cost": 7
+				},
+				"Passive": {
+					"Name": "The Agent",
+					"Description": "For each __Shield__ __Minion__ or __Nick Fury__ ally, gain +X% chance to assist on non-attack abilities. x% chance to gain **Assist Now** on each __Shield__ ally's turn. When __Nick Fury__ is attacked, Gain **Counter** and apply **Taunt** to __Shield Security__.\nGain +X% Max Health. __Shield__ allies gain +X% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "americachavez",
+			"Name": "America Chavez",
+			"Aliases": ["chavez", "star spangled brawler"],
+			"Tags": ["Hero", "Cosmic", "Mystic", "Brawler", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/ZKMWnHXg/americachavez.png",
+			"Health": 137818,
+			"Damage": 15022,
+			"Armor": 3109,
+			"Focus": 2823,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 115,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Starstruck",
+					"Description": "Attack primary target for 290% damage + apply **Defense Down**."
+				},
+				"Special": {
+					"Name": "Shooting Star",
+					"Description": "Attack primary target for 300% damage + 75% damage per __Hero__ __Brawler__ ally.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Starling Highway",
+					"Description": "Clear 3 positive effects. Attack primary target for 430% damage.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "America's Starling",
+					"Description": "Gain +20% Max Health. __Hero__ __Brawler__ allies gain +20% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "aimassaulter",
+			"Name": "A.I.M. Assaulter",
+			"Aliases": ["aim assaulter", "assaulter", "aim assault", "aimassault"],
+			"Tags": ["Villain", "Global", "Tech", "Blaster", "Aim", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/XNxGS4Ln/aimassaulter.png",
+			"Health": 93258,
+			"Damage": 17276,
+			"Armor": 6218,
+			"Focus": 2122,
+			"Resistance": 1167,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 118,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Submachine Gun",
+					"Description": "Attack primary target for 160% damage + apply **Bleed**."
+				},
+				"Special": {
+					"Name": "Hyperdose",
+					"Description": "Gain **Speed Up** for 4 turns + **Heal Block** for 2 turns. Fill Speed Bar by 60%.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Juicer",
+					"Description": "Gain +15% damage and +10% max health."
+				}
+			}
+		},
+		{
+			"Id": "aiminfector",
+			"Name": "A.I.M. Infector",
+			"Aliases": ["aim infector", "infector", "aiminfector"],
+			"Tags": ["Villain", "Global", "Bio", "Controller", "Aim", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/8P5FT9XM/aiminfector.png",
+			"Health": 88082,
+			"Damage": 7595,
+			"Armor": 8702,
+			"Focus": 3077,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 114,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Puncture",
+					"Description": "Attack primary target for 270% damage. Pass any negative effects on this character to target. 70% chance to apply **Offense Down**, **Defense Down**, or **Slow** to target."
+				},
+				"Special": {
+					"Name": "Biohazard",
+					"Description": "Gain 3 random negative effects for 2 turns. Heal self for 10000 Health + 20% of Max Health.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Metabolism",
+					"Description": "Gain +10% Speed and +15% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "aimmonstrosity",
+			"Name": "A.I.M. Monstrosity",
+			"Aliases": ["aim monstrosity", "aimmonstrosity", "monstrosity"],
+			"Tags": ["Villain", "Global", "Bio", "Brawler", "Aim", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/W4Rt63Nw/aimmonstrosity.png",
+			"Health": 95320,
+			"Damage": 16462,
+			"Armor": 5718,
+			"Focus": 2590,
+			"Resistance": 1656,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 77,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Bash",
+					"Description": "Attack primary target for 280% damage. Apply **Defense Down** for 1 turn."
+				},
+				"Special": {
+					"Name": "Sudden Evolution",
+					"Description": "Gain **Offense Up** for 3 turns + **Defense Down** for 2 turns. Heal self for 3000 Health + 5% of Max Health.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Growth Spurt",
+					"Description": "On Turn, 50% chance to Heal for 10% of Max Health."
+				}
+			}
+		},
+		{
+			"Id": "aimresearcher",
+			"Name": "A.I.M. Researcher",
+			"Aliases": ["aim researcher", "researcher", "aimresearcher"],
+			"Tags": ["Villain", "Global", "Skill", "Support", "Aim", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/JnxnL5bp/aimresearcher.png",
+			"Health": 173054,
+			"Damage": 7595,
+			"Armor": 6218,
+			"Focus": 1656,
+			"Resistance": 2590,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 81,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Wounding Shot",
+					"Description": "Attack primary target for 280% damage + apply **Offense Down** for 1 turn."
+				},
+				"Special": {
+					"Name": "Surgery Drone",
+					"Description": "Heal lowest Health ally for 7000 Health + 15% of this character's Max Health. Apply **Offense Down** to that ally for 2 turns.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Antidote",
+					"Description": "On Turn, 25% chance to convert 1 negative effect on each of 2 allies into a positive effect."
+				}
+			}
+		},
+		{
+			"Id": "aimsecurity",
+			"Name": "A.I.M. Security",
+			"Aliases": ["aim security", "security", "aimsecurity"],
+			"Tags": ["Villain", "Global", "Tech", "Protector", "Aim", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/XJ4JmzyZ/aimsecurity.png",
+			"Health": 173036,
+			"Damage": 8331,
+			"Armor": 9139,
+			"Focus": 2122,
+			"Resistance": 2978,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 76,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Takedown",
+					"Description": "Attack primary target for 270% damage. Apply **Slow** for 1 turn."
+				},
+				"Special": {
+					"Name": "Charge Capacitor",
+					"Description": "Gain Taunt for 1 turn + **Slow** for 2 turns. Heal self for 8000 Health + 10% of Max Health.",
+					"Starting Energy": 0,
+					"Energy Cost": 0
+				},
+				"Passive": {
+					"Name": "Immunization",
+					"Description": "Gain +10% Max Health and +15% Resistance."
+				}
+			}
+		},
+		{
+			"Id": "antman",
+			"Name": "Ant-Man",
+			"Aliases": ["antman", "ant man", "giantman", "giant man", "scott lang", "hank pym", "piss ant"],
+			"Tags": ["Hero", "Global", "Tech", "Controller", "Avenger", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/t4nYxPjg/antman.png",
+			"Health": 89486,
+			"Damage": 8331,
+			"Armor": 4663,
+			"Focus": 2590,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Scrappy Fighter",
+					"Description": "Attack primary target for 270% damage + copy a positive effect from the target to Self + clear the copied effect.\nIf __Wasp__ is an ally, she also gains the copied effect."
+				},
+				"Special": {
+					"Name": "Gum Up the Works",
+					"Description": "Attack primary target for 220% damage + always apply **Ability Block** for 2 turns.\nThis attack cannot be dodged or blocked.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Stomp",
+					"Description": "Attack all for 140% damage + Apply **Slow** to all targets.\nIf __Wasp__ is an ally, deal an additional +30% damage to all targets",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Escape Plan",
+					"Description": "On Spawn, apply **Evade** to __Wasp__ if she is an ally.\nOn Turn, 15% chance to gain **Evade** + 15% chance to gain **Assist Now**."
+				}
+			}
+		},
+		{
+			"Id": "beast",
+			"Name": "Beast",
+			"Aliases": [],
+			"Tags": [],
+			"Portrait_URL": "https://i.postimg.cc/WzLxwDns/beast.png",
+			"Health": 0,
+			"Damage": 0,
+			"Armor": 0,
+			"Focus": 0,
+			"Resistance": 0,
+			"Crit Damage": 0,
+			"Crit Chance": 0,
+			"Speed": 0,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 0,
+			"Accuracy": 0,
+			"Abilities": {
+				"Basic": {
+					"Name": "",
+					"Description": ""
+				},
+				"Special": {
+					"Name": "",
+					"Description": "",
+					"Starting Energy": 0,
+					"Energy Cost": 0
+				},
+				"Ultimate": {
+					"Name": "",
+					"Description": "",
+					"Starting Energy": 0,
+					"Energy Cost": 0
+				},
+				"Passive": {
+					"Name": "",
+					"Description": ""
+				}
+			}
+		},
+		{
+			"Id": "blackbolt",
+			"Name": "Black Bolt",
+			"Aliases": ["blackbolt", "bb", "inhuman"],
+			"Tags": ["Hero", "Cosmic", "Bio", "Blaster", "Inhuman"],
+			"Portrait_URL": "https://i.postimg.cc/L86wDFzg/blackbolt.png",
+			"Health": 31068,
+			"Damage": 3050,
+			"Armor": 1060,
+			"Focus": 710,
+			"Resistance": 587,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Royal Strike",
+					"Description": "If the primary target has **Slow**, flip 2 negative effects on self. Attack primary target for 400% damage + clear 2 positive effects."
+				},
+				"Special": {
+					"Name": "Staggering Voice",
+					"Description": "Attack primary target for 600% damage. This attack is unavoidable.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Sonic Scream",
+					"Description": "Attack all enemies for 500% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "King of Attilan",
+					"Description": "Characters killed by Black Bolt cannot be revived.\nWhen an enemy drops below 25% Health, attack that enemy for 200% damage. If that enemy is __Villain__ __Tech__, attack that enemy for 400% damage instead.\nOn enemy summon, apply **Disrupted** + clear 3 positive effects on the summoner.\nGain +40% Resistance. __Inhuman__ allies gain +40% Resistance.\nGain +50% Max Health. __Inhuman__ allies gain +50% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "blackpanther",
+			"Name": "Black Panther",
+			"Aliases": ["wakandan", "king of wakanda", "panther", "tchalla", "t'challa"],
+			"Tags": ["Hero", "Global", "Mystic", "Brawler", "Avenger", "Wakanda"],
+			"Portrait_URL": "https://i.postimg.cc/jjz28bC0/blackpanther.png",
+			"Health": 88067,
+			"Damage": 12517,
+			"Armor": 8080,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 125,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Claw Slash",
+					"Description": "Attack primary target for 210% damage + 30% Piercing. **Apply Slow**."
+				},
+				"Special": {
+					"Name": "Hunter's Spirit",
+					"Description": "Attack primary target for 230% damage + 30% Piercing.\nGain **Offense Up** for 2 turns. On Crit, gain **Counter**",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Panther Rush",
+					"Description": "Attack primary target for 280% damage. Chain to 1-3 adjacent targets for 200% damage. **Counter** breaks this Chain.\nWhile in **Charged**, instead attack all enemies for 250% damage, then lose all **Charged**. This attack gains +20% Damage per **Charged**.\nAll attacks have +30% Piercing and +20% Extra Crit Chance.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Defender of Wakanda",
+					"Description": "On dropping below 50% of Max Health, gain +1 **Charged**, up to a maximum of 5.\nOn Kill, fill Speed Bar by 100%.\nOn **Defense Up**, gain **Deflect**."
+				}
+			}
+		},
+		{
+			"Id": "blackwidow",
+			"Name": "Black Widow",
+			"Aliases": ["widow", "bw", "romanoff"],
+			"Tags": ["Hero", "Global", "Skill", "Controller", "Avenger", "Shield", "Wave1Avenger", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/x8ddTN5n/blackwidow.png",
+			"Health": 88067,
+			"Damage": 9101,
+			"Armor": 4663,
+			"Focus": 3077,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 155,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Sabotage",
+					"Description": "Attack primary target for 250% damage. During **Stealth**, copy and clear all positive effects on primary target."
+				},
+				"Special": {
+					"Name": "Camouflage Tech",
+					"Description": "Gain **Stealth** for 2 turns + clear all negative effects from Self. Clear 1 negative effect from __Avenger__ allies.\nApply **Speed Up** to Self and all __Shield__ and __Avenger__ allies for 2 turns. 60% chance to apply **Speed Up** to all allies for 2 turns.",
+					"Starting Energy": 0,
+					"Energy Cost": 0
+				},
+				"Ultimate": {
+					"Name": "Widow's Bite",
+					"Description": "Attack primary target for 290% damage + apply **Stun**. 60% chance to Chain up to 3 adjacent targets for 220% damage + apply 2 **Bleed** for 2 turns.\n**Counter** breaks this Chain.",
+					"Starting Energy": 1,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Saboteur",
+					"Description": "Gain +15% **Speed**. This is applied after any character has taken an action. When in **Stealth**, gain **Offense Up**."
+				}
+			}
+		},
+		{
+			"Id": "bullseye",
+			"Name": "Bullseye",
+			"Aliases": ["dex"],
+			"Tags": ["Villain", "City", "Skill", "Blaster", "Mercenary"],
+			"Portrait_URL": "https://i.postimg.cc/FznHfFCc/bullseye.png",
+			"Health": 88067,
+			"Damage": 14424,
+			"Armor": 5060,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 110,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 140,
+			"Abilities": {
+				"Basic": {
+					"Name": "Throwing Knife",
+					"Description": "Attack primary target for 270% damage. This attack cannot miss (though it can be dodged). Gain +20% Crit chance for this attack."
+				},
+				"Special": {
+					"Name": "Card Trick",
+					"Description": "Attack primary target for 230% damage and +25% Crit chance. 80% chance to gain a Bonus attack for 190% damage and +40% Crit chance.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Kill Shot",
+					"Description": "Attack primary target for 550% damage. Gain +30% Crit chance and +20% Crit damage for this attack.",
+					"Starting Energy": 0,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Never Miss",
+					"Description": "Gain +10% Accuracy. All allies gain +10% Accuracy. __Mercenary__ allies gain +10% Crit damage."
+				}
+			}
+		},
+		{
+			"Id": "cable",
+			"Name": "Cable",
+			"Tags": ["Hero", "Cosmic", "Mutant", "Blaster", "Xforce"],
+			"Portrait_URL": "https://i.postimg.cc/9XxMg1XM/cable.png",
+			"Health": 103608,
+			"Damage": 14424,
+			"Armor": 8393,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 91,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Plasma Rifle",
+					"Description": "Attack primary target for 340% damage + gain **Charged**."
+				},
+				"Special": {
+					"Name": "Overload",
+					"Description": "Attack primary target for 220% damage + change Speed Bar by -50%. Attack adjacent targets for 170% damage + change Speed Bar by -10%.\nIf **Charged**, in addition, attack targets 2 spaces from primary for 170% damage and change Speed Bar by -10%, then lose **Charged**.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Psychic Surge",
+					"Description": "Attack primary target for 530% Unavoidable damage. If Deadpool is an ally, gain assist from Deadpool.\nOn Kill, fill Cable and Deadpool's Speed Bars by 70%.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Time Sense",
+					"Description": "On Spawn, Self and all allies gain 5% Speed Bar. On Turn, 30% chance to apply **Counter** to a random __Mutant__ ally, and 20% chance to apply **Counter** to another random ally."
+				}
+			}
+		},
+		{
+			"Id": "captainamerica",
+			"Name": "Captain America",
+			"Aliases": ["americas ass", "steve rogers", "capsicle"],
+			"Tags": ["Hero", "Global", "Bio", "Protector", "Avenger", "Shield", "Military", "Wave1Avenger"],
+			"Portrait_URL": "https://i.postimg.cc/bNsv7bdR/captainamerica.png",
+			"Health": 97020,
+			"Damage": 8331,
+			"Armor": 8080,
+			"Focus": 2122,
+			"Resistance": 2653,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 114,
+			"Dodge Chance": 0,
+			"Block Chance": 25,
+			"Block Amount": 35,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Shield Bash",
+					"Description": "Attack primary target for 220% damage. 30% chance to Chain to up to 2 adjacent targets for 170% damage. Gain **Defense Up** for 1 turn.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Inspire",
+					"Description": "Gain **Taunt** and **Defense Up** on self. Apply **Defense Up** to all allies. Grant 1 Ability Energy to 1-2 __Avenger__ allies. Grant 1 Ability Energy to 1-3 random allies.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Shield Throw",
+					"Description": "Attack primary target for 300% damage, clearing 2 positive effects. Chain to 1-2 additional targets for 230% damage, clearing 2 positive effects.\nDodge breaks this Chain.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Assemble!",
+					"Description": "+25% Block chance. +10% Block Amount. +10% Max Health. +5% Block chance per __Avenger__ ally."
+				}
+			}
+		},
+		{
+			"Id": "captainmarvel",
+			"Name": "Captain Marvel",
+			"Aliases": ["carol danvers", "binary", "kree"],
+			"Tags": ["Hero", "Cosmic", "Bio", "Brawler", "Kree", "Military", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/WbC4T3kc/captainmarvel.png",
+			"Health": 142978,
+			"Damage": 14423,
+			"Armor": 5597,
+			"Focus": 2759,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 127,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Princess Sparkle Fist",
+					"Description": "Attack primary target for 320% damage. 50% chance to Chain to 1 adjacent target for 220% damage.\nIf not in Binary, gain +1 **Charged**, up to a maximum of 5. If in Binary, lose 1 **Charged**. On losing all **Charged**, end Binary.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Warbird",
+					"Description": "Attack primary target for 450% damage + clear all positive effects.\nIf not in Binary, gain +1 **Charged**, up to a maximum of 5. If in Binary, lose 1 **Charged**. On losing all **Charged**, end Binary.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Binary",
+					"Description": "Gain Binary. Clear all negative effects from self. Attack primary target for 640% damage.\nThis attack cannot be dodged and cannot crit.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Higher. Further. Faster.",
+					"Description": "While in Binary gain: 25% damage, 25% armor, 100% focus, and 100% resistance. While in Binary, on end of turn, attack all enemies for 150% damage.\nOn Spawn:\n> Clear all **Charged**. If any **Charged** were cleared, gain **Regeneration**.\n> Gain **Charged**.\n> If at least one ally is __Military__, gain an additional **Charged**.\n__Military__ allies gain +15% Max Health.\n__Military__ allies gain +10% Damage.\nIf not in Binary, when this character gains Ability Energy, gain +1 **Charged**, up to a maximum of 5.\nOn Turn, heal self for 20% of max health."
+				}
+			}
+		},
+		{
+			"Id": "carnage",
+			"Name": "Carnage",
+			"Aliases": ["spiderverse", "spider-verse", "spider verse"],
+			"Tags": ["Villain", "City", "Bio", "Brawler", "SpiderVerse"],
+			"Portrait_URL": "https://i.postimg.cc/MpBpTS7M/carnage.png",
+			"Health": 155412,
+			"Damage": 9101,
+			"Armor": 622,
+			"Focus": 2653,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 126,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Cleave",
+					"Description": "Attack primary target for 280% damage. If the primary target has a negative effect, Chain to 1-2 adjacent targets for 90% damage + spread 2 negative effects from the primary target to secondary targets.\nThis will not spread **Stun**.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Slaughter",
+					"Description": "Attack primary target for 420% damage + 100% additional damage per negative effect. Remove all negative effects from the primary target. Attack all adjacent targets for 250% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Absolute Carnage",
+					"Description": "Attack primary target for 500% Piercing + apply 2 **Bleed** for 2 turns. If the primary target is above 50% Health, apply an additional **Bleed** for 2 turns.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Frenzied Fury",
+					"Description": "When an enemy drops below 25% Health, Fill Speed Bar by 30% + Heal for 10% of this character's Max Health."
+				}
+			}
+		},
+		{
+			"Id": "colossus",
+			"Name": "Colossus",
+			"Aliases": ["tinman", "xmen", "x-men"],
+			"Tags": ["Hero", "Global", "Mutant", "Protector", "Xmen"],
+			"Portrait_URL": "https://i.postimg.cc/hjDDpQHT/colossus.png",
+			"Health": 145050,
+			"Damage": 12517,
+			"Armor": 9324,
+			"Focus": 1635,
+			"Resistance": 3395,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 88,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Ringdinger",
+					"Description": "Attack primary target for 340% damage and apply **Offense Down** for 2 turns."
+				},
+				"Special": {
+					"Name": "Altruism",
+					"Description": "Gain **Taunt**. Gain 2 **Counter**. Apply 2 **Deflect** to Self and __Xmen__ Allies. Apply **Deflect** to all other allies.\nIf __Phoenix__ is an ally, gain **Taunt** for 2 turns.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Enduring Protection",
+					"Description": "Increase duration of positive effects on self by +3, up to a maximum of 5.\nGain 2 **Deathproof**.\nGain +2 **Charged**, up to a maximum of 5.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Steel Form",
+					"Description": "On Spawn, if **Charged**, generate 1 Ability Energy for self. Then clear **Charged**.\nOn Spawn, if __Phoenix__ is an ally:\n> Gain **Defense Up** for 2 turns.\n> Apply **Defense Up** to all __Xmen__ allies.\nWhen a negative effect is applied to an __Xmen__ ally, gain +1 **Charged**, up to a maximum of 5. While **Charged**, when attacked, attack that enemy for 100% damage +10% damage per **Charged**.\nWhen an __Xmen__ ally drops below 50% Max Health, gain +1 **Taunt**, up to a maximum of 2.\nWhile in **Defense Up**, gain +1000% Resistance.\nGain +15% Max Health. __Xmen__ allies gain +15% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "crossbones",
+			"Name": "Crossbones",
+			"Aliases": ["xbones", "xb", "hydra"],
+			"Tags": ["Villain", "Global", "Tech", "Protector", "Hydra"],
+			"Portrait_URL": "https://i.postimg.cc/7LyYJW9B/crossbones.png",
+			"Health": 103628,
+			"Damage": 10237,
+			"Armor": 7646,
+			"Focus": 1061,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 99,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Piston Punch",
+					"Description": "Attack primary target for 200% damage. 75% chance of a Bonus attack for 150% damage and apply **Offense Down**."
+				},
+				"Special": {
+					"Name": "Wrath",
+					"Description": "Gain **Taunt** + 2-3 **Counter**. Heal self for 15% of Max Health.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Detonate",
+					"Description": "Gain 2 **Deathproof**, then explode for 480% damage to self and all enemies.\nThis attack cannot miss (though it can be dodged).",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Vengeance",
+					"Description": "+20% Max Health. _Hydra__ allies gain +5% Armor."
+				}
+			}
+		},
+		{
+			"Id": "cyclops",
+			"Name": "Cyclops",
+			"Aliases": ["scott summers", "summers", "xmen", "x-men"],
+			"Tags": ["Hero", "Global", "Mutant", "Blaster", "Xmen"],
+			"Portrait_URL": "https://i.postimg.cc/LXxH76p7/cyclops.png",
+			"Health": 118112,
+			"Damage": 28701,
+			"Armor": 3731,
+			"Focus": 3735,
+			"Resistance": 1952,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 200,
+			"Abilities": {
+				"Basic": {
+					"Name": "Optic Blast",
+					"Description": "Attack primary target for 300% damage + apply **Disrupted**."
+				},
+				"Special": {
+					"Name": "To Me!",
+					"Description": "Apply **Taunt** to the 2 most injured enemies. Call 2 adjacent allies to attack the 2 most injured enemies.\nThen attack primary target for 350% damage.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Optic Devastation",
+					"Description": "Attack all targets for 250% damage + apply **Slow** to each targets for 2 turns. Damage is increased by 25% per **Charged**.\nThen lose **Charged**.",
+					"Starting Energy": 8,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Team Synergy",
+					"Description": "On __Xmen__ ally turn, Gain +1 **Charged**, up to a maximum of 5. On ally __Phoenix__ death, gain **Offense Up**."
+				}
+			}
+		},
+		{
+			"Id": "daredevil",
+			"Name": "Daredevil",
+			"Aliases": ["dd", "blind guy", "defenders", "punfenders"],
+			"Tags": ["Hero", "City", "Bio", "Brawler", "Defender", "MartialArtist"],
+			"Portrait_URL": "https://i.postimg.cc/zfSDCFPq/daredevil.png",
+			"Health": 93248,
+			"Damage": 13769,
+			"Armor": 4975,
+			"Focus": 3077,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 119,
+			"Dodge Chance": 5,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 200,
+			"Abilities": {
+				"Basic": {
+					"Name": "Strike Without Fear",
+					"Description": "Attack primary target for 270% damage.\n50% chance to Bonus attack for 200% damage.\nIf target is __Villain__, always Bonus attack."
+				},
+				"Special": {
+					"Name": "Throw Baton",
+					"Description": "Attack primary target for 200% damage + Chain to 2 targets within 2 spaces of previous target for 150% damage. Dodge breaks this Chain.\nApply 2 Counter to self and all __Defender__ allies.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Brawl",
+					"Description": "Attack primary target for 400% damage + Chain to 4-6 adjacent targets for 240% damage.\n**Counter** breaks this Chain.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Enhance Senses",
+					"Description": "Self and __Defender__ allies gain +10% Speed. This is applied after any character has taken an action.\nGain +5% Dodge chance. Gain +5% Dodge chance per __Defender__ ally. Gain +10% Damage."
+				}
+			}
+		},
+		{
+			"Id": "darkphoenix",
+			"Name": "Dark Phoenix",
+			"Aliases": ["jean", "phoenix", "dark phoenix", "xmen", "legendary"],
+			"Tags": ["Hero", "Global", "Mutant", "Controller", "Xmen", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/y8ptwgg0/phoenix.png",
+			"Health": 98427,
+			"Damage": 15022,
+			"Armor": 3109,
+			"Focus": 3119,
+			"Resistance": 2610,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 118,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Immolation",
+					"Description": "Attack primary target and all adjacent targets for 250% damage. Clear 2 positive effects on each target."
+				},
+				"Special": {
+					"Name": "Vitality Drain",
+					"Description": "Steal 20% Health from all enemies and redistribute to self. Apply **Regeneration** to all allies. Apply an additional **Regeneration** to all __Xmen__ allies.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Phoenix Unleashed",
+					"Description": "Attack all enemies for 400% damage.\nClear all positive effects on each target.\nGain +50000% Extra Focus for this attack.\nThis attack is Unavoidable.",
+					"Starting Energy": 6,
+					"Energy Cost": 8
+				},
+				"Passive": {
+					"Name": "From the Ashes",
+					"Description": "On Spawn, attack all enemies for 250% damage + apply **Defense Down** for 2 turns."
+				}
+			}
+		},
+		{
+			"Id": "deadpool",
+			"Name": "Deadpool",
+			"Aliases": ["dp", "wade wilson", "wade"],
+			"Tags": ["Hero", "Global", "Mutant", "Brawler", "Xforce", "Mercenary"],
+			"Portrait_URL": "https://i.postimg.cc/8cs1VQkC/deadpool.png",
+			"Health": 108789,
+			"Damage": 14424,
+			"Armor": 2488,
+			"Focus": 1699,
+			"Resistance": 1699,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 112,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Dual Pistols",
+					"Description": "Attack primary target for 220% damage + 80% chance to Bonus attack for 170% damage. Bonus attack always Crits if the target is a __Minion__."
+				},
+				"Special": {
+					"Name": "Bounty Hunter",
+					"Description": "Attack the most injured target for 550% damage, ignoring **Taunt**. On Kill, gain **Regeneration**.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Hack 'n' Slash",
+					"Description": "Attack primary target for 260% damage + Rebound Chain 3-4 additional targets for 200% damage. Apply **Bleed** to __Minion__ targets.\n**Counter** breaks this Chain.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Merc with a Mouth",
+					"Description": "On Turn, clear all negative effects from Self + Heal 15% of Max Health per negative effect removed.\n5% chance to Revive for 10% of Max Health."
+				}
+			}
+		},
+		{
+			"Id": "doctorstrange",
+			"Name": "Doctor Strange",
+			"Aliases": ["drstrange", "dr strange", "strange", "ds"],
+			"Tags": ["Hero", "Cosmic", "Mystic", "Support", "Supernatural"],
+			"Portrait_URL": "https://i.postimg.cc/44FfQdwH/drstrange.png",
+			"Health": 89103,
+			"Damage": 7595,
+			"Armor": 2797,
+			"Focus": 3608,
+			"Resistance": 2590,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 108,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Bolt of Balthak",
+					"Description": "Attack primary target for 170% Piercing + apply **Offense Down** for 1-2 turns. This is Unavoidable."
+				},
+				"Special": {
+					"Name": "Winds of Watoomb",
+					"Description": "Apply 2 random negative effects against primary target + flip all positive effects on each enemy to negative effects.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Book of the Vishanti",
+					"Description": "Revive dead ally with 50% Health + Heal all allies for 8000 Health + 10% of this character's Max Health.",
+					"Starting Energy": 3,
+					"Energy Cost": 7
+				},
+				"Passive": {
+					"Name": "Master of the Arcane Arts",
+					"Description": "On Turn, 30% chance to Fill lowest Speed Bar by 30%."
+				}
+			}
+		},
+		{
+			"Id": "drax",
+			"Name": "Drax",
+			"Tags": ["Hero", "Cosmic", "Bio", "Protector", "Guardian", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/8c3TpKsm/drax.png",
+			"Health": 176134,
+			"Damage": 12517,
+			"Armor": 7459,
+			"Focus": 1486,
+			"Resistance": 1486,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 66,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Knife Slash",
+					"Description": "Attack primary target for 250% damage + 30% Drain."
+				},
+				"Special": {
+					"Name": "Fast Reflexes",
+					"Description": "Gain **Taunt** + 2 **Counter**. Gain **Defense Up** for 1-2 turns.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Good Fighting",
+					"Description": "Attack primary target for 300% damage + 50% Drain. Chain to 3-5 adjacent targets for 240% damage + 50% Drain.\nCounter breaks this Chain.",
+					"Starting Energy": 3,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Destroyer",
+					"Description": "On Spawn, gain **Taunt**.\n+20% increase to Drain."
+				}
+			}
+		},
+		{
+			"Id": "elektra",
+			"Name": "Elektra",
+			"Aliases": ["hand"],
+			"Tags": ["Villain", "City", "Mystic", "Brawler", "Hand", "MartialArtist"],
+			"Portrait_URL": "https://i.postimg.cc/Nf3QZz3g/elektra.png",
+			"Health": 88067,
+			"Damage": 14424,
+			"Armor": 4353,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 113,
+			"Dodge Chance": 7,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Sneak Attack",
+					"Description": "Attack primary target for 200% damage + 70% chance to apply **Bleed**. If target is a __Defender__, apply 3 Bleed."
+				},
+				"Special": {
+					"Name": "Into Shadow",
+					"Description": "Attack primary target for 160% damage + clear 2 positive effects. Gain **Stealth**.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Vital Strike",
+					"Description": "Attack primary target for 600% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Death's Grace",
+					"Description": "On Spawn, a random __Hand__ ally gains **Evade**. 15% chance to Revive on Death with 20% of Max Health."
+				}
+			}
+		},
+		{
+			"Id": "elsa",
+			"Name": "Elsa Bloodstone",
+			"Aliases": ["elsa"],
+			"Tags": ["Hero", "Global", "Mystic", "Blaster", "Supernatural"],
+			"Portrait_URL": "https://i.postimg.cc/jdhBySJr/elsa.png",
+			"Health": 25536,
+			"Damage": 2310,
+			"Armor": 958,
+			"Focus": 644,
+			"Resistance": 539,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 114,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Bloody Good Guns",
+					"Description": "Attack primary target for 45% Piercing + Bonus Attack 5 times for 45% Piercing."
+				},
+				"Special": {
+					"Name": "Trick Shot",
+					"Description": "Attack primary target for 300% damage.\nAttack the most injured enemy for 350% damage, ignoring **Taunt** and **Stealth**",
+					"Starting Energy": 2,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Scatterguns",
+					"Description": "Gain **Offense Up** for 2 turns. Attack primary target and adjacent targets for 250% damage + 25% damage per __Supernatural__ ally.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "#%@$!",
+					"Description": "On Miss or on ally miss, if this character has 3 or more __Supernatural__ allies, attack that target for 270% damage.\nOn enemy dodge, attack that enemy for 270% damage.\nGain +10% Crit Chance. __Mystic__ allies gain +10% Crit Chance.\nGain +20% Accuracy per __Supernatural__ ally."
+				}
+			}
+		},
+		{
+			"Id": "falcon",
+			"Name": "Falcon",
+			"Tags": ["Hero", "Global", "Tech", "Blaster", "Avenger", "PowerArmor"],
+			"Portrait_URL": "https://i.postimg.cc/y807KTK0/falcon.png",
+			"Health": 98437,
+			"Damage": 15022,
+			"Armor": 4663,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 113,
+			"Dodge Chance": 0,
+			"Block Chance": 25,
+			"Block Amount": 35,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Dual SMGs",
+					"Description": "Attack primary target for 230% damage. If primary target has any positive effects, Bonus Attack for 120% damage.\nIn War, if target has any positive effects, Bonus Attack again for 120% damage."
+				},
+				"Special": {
+					"Name": "Redwing",
+					"Description": "Change Speed Bar for self and all allies by 30% + 10% for each enemy with a positive effect.\nClear **Stealth** from all enemies.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Strafing Run",
+					"Description": "Attack all enemies for 190% damage + 50% Piercing.\nFor each positive effect on an enemy, Bonus Attack that enemy for 80% damage + 50% Piercing.\nOn War Offense, +50% Piercing to primary and secondary attacks.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "EXO-7 Wingsuit",
+					"Description": "Gain +25% Block Chance. Gain +5% Block Chance per __PowerArmor_ ally.\nGain +10% Max Health.\nGain +10% Block Amount."
+				}
+			}
+		},
+		{
+			"Id": "gamora",
+			"Name": "Gamora",
+			"Aliases": ["guardians"],
+			"Tags": ["Hero", "Cosmic", "Skill", "Brawler", "Guardian", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/0NxPyJ5F/gamora.png",
+			"Health": 103608,
+			"Damage": 9101,
+			"Armor": 622,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 20,
+			"Speed": 130,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Assassin's Strike",
+					"Description": "Attack primary target for 250% damage + 50% chance to Bonus attack up to 2 times for 200% damage."
+				},
+				"Special": {
+					"Name": "Ruthless Blade",
+					"Description": "Attack primary target for 270% damage. Chain to 1-2 adjacent targets for 200% damage. On Kill, fill Speed Bar by 100%.\n**Counter** breaks this Chain.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Flying Slash",
+					"Description": "Gain **Offense Up** for 2 turns. Attack primary target for 420% damage. On Kill, fill Speed Bar by 100%.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Deadly Methods",
+					"Description": "Gain +10% Crit Chance. Apply +10% Crit Chance to __Guardian__ allies. Apply +5% Crit Chance to additional allies."
+				}
+			}
+		},
+		{
+			"Id": "ghostrider",
+			"Name": "Ghost Rider",
+			"Aliases": ["ghostrider", "flameskull"],
+			"Tags": ["Hero", "City", "Mystic", "Brawler", "Supernatural"],
+			"Portrait_URL": "https://i.postimg.cc/RCKkVRSh/ghostrider.png",
+			"Health": 30217,
+			"Damage": 2458,
+			"Armor": 958,
+			"Focus": 539,
+			"Resistance": 539,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 127,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Hellfire",
+					"Description": "Attack primary target for 250% damage + apply **Bleed** for 2 turns."
+				},
+				"Special": {
+					"Name": "Hell Cycle",
+					"Description": "Attack primary target for 290% damage + apply 2 **Bleed** for 2 turns. Attack all adjacent targets for 270% damage + apply 2 **Bleed**.\nThis attack cannot be blocked and cannot miss.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Ultimate": {
+					"Name": "Penance Stare",
+					"Description": "Attack primary target for 500% Piercing + apply **Offense Down** and **Defense Down**.\nIf Charged, this attack gains 200% Drain and lose 1 Charged.",
+					"Starting Energy": 2,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Spirit of Vengeance",
+					"Description": "On Death, grant 2 Ability Energy to all __Supernatural__ allies.\nOn non-summoned ally Death, attack the enemy that killed the target for 500% damage and gain +1 Charged, up to a maximum of 5. Generate 3 Ability Energy for self.\nWhen a negative effect is applied to an enemy, change Speed Bar of self and all __Supernatural__ allies by 3%.\nGain +40% Max Health. __Supernatural__ allies gain +40% Max Health.\nGain +30% Focus. __Mystic__ allies gain +30% Focus."
+				}
+			}
+		},
+		{
+			"Id": "graviton",
+			"Name": "Graviton",
+			"Aliases": [],
+			"Tags": ["Vilain", "Global", "Bio", "Controller", "Aim"],
+			"Portrait_URL": "https://i.postimg.cc/cCR29s9w/graviton.png",
+			"Health": 21280,
+			"Damage": 2162,
+			"Armor": 1494,
+			"Focus": 644,
+			"Resistance": 438,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 106,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Gravity Well",
+					"Description": "Attack primary target for 250% damage + Bonus attack for 100% damage per negative effect on the target."
+				},
+				"Special": {
+					"Name": "Crushing Force",
+					"Description": "Attack primary target and adjacent targets for 300% damage. Apply +2 **Slow**, up to a maximum of 5 to primary target and adjacent targets.\nIf Scientist Supreme is an ally, apply **Bleed** to primary target and adjacent targets.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Singularity",
+					"Description": "Attack primary target for 300% damage + 100% additional damage per negative effect + apply **Stun**.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Weight of the World",
+					"Description": "When an enemy drops below 50% health, increase the duration of their negative effects by +1, up to a maximum of 5.\n__Aim__ __Minion__ allies gain +20% Damage.\n__Aim__ __Minion__ allies gain +20% Max Health.\nIn WAR, on Turn, change Speed Bar of the enemy with the highest Speed by -25%.\nIn WAR, when an enemy drops below 75% health, apply **Disrupted**."
+				}
+			}
+		},
+		{
+			"Id": "greengoblin",
+			"Name": "Green Goblin",
+			"Aliases": ["gg", "greengoblin", "spiderverse", "spider verse", "spider-verse", "sinistersix", "sinister six"],
+			"Tags": ["Villain", "City", "Bio", "Blaster", "SpiderVerse", "SinisterSix"],
+			"Portrait_URL": "https://i.postimg.cc/R0R96VNF/greengoblin.png",
+			"Health": 137819,
+			"Damage": 11971,
+			"Armor": 6218,
+			"Focus": 2122,
+			"Resistance": 2611,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 88,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Goblin Strike",
+					"Description": "Attack primary target for 330% damage. 25% chance to attack adjacent targets for 260% damage."
+				},
+				"Special": {
+					"Name": "Burning Rage",
+					"Description": "Attack a random target with **Stealth** for 450% damage. If no targets have **Stealth**, attack primary target instead. Deal 50% additional damage per positive effect on the target.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Fire and Brimstone",
+					"Description": "Attack primary target for 290% damage. Attack 3-4 random targets for 290% damage.",
+					"Starting Energy": 5,
+					"Energy Cost": 7
+				},
+				"Passive": {
+					"Name": "Cauterize",
+					"Description": "On any __SpiderVerse__ ally's turn, choose 2 random enemies. If they have a positive effect, remove 1.\nOn Spawn, apply __Defense Down__ to the enemy with the most Resistance. If that enemy is __Shield__, apply __Defense Down__ for 2 turns. This attack cannot be resisted.\nGain +20% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "groot",
+			"Name": "Groot",
+			"Aliases": ["i am groot", "guardians", "stick", "technerva"],
+			"Tags": ["Hero", "Cosmic", "Bio", "Support", "Guardian", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/4dxGzk91/groot.png",
+			"Health": 129510,
+			"Damage": 13453,
+			"Armor": 9325,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 70,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Crushing Blow",
+					"Description": "Attack primary target for 340% damage."
+				},
+				"Special": {
+					"Name": "Overgrowth",
+					"Description": "Gain 2 **Deathproof**. Apply **Deathproof** + **Defense Up** to all allies.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Life Spores",
+					"Description": "Heal all allies for 6000 Health + 5% of this character's Max Health. Clear 2 negative effects from all allies. Apply **Immunity** to Lowest Health __Guardian__ ally for 2 turns.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "I am Groot",
+					"Description": "When Groot is attacked, apply **Slow** to attacker for 1 turns\nOn Death:\n> 20% chance to Revive with 25% of this character's Max Health\n> Apply **Deathproof** to Rocket Raccoon\n> Apply **Defense Up** to all allies\n> Apply **Speed Up** + **Offense Up** + **Counter** to __Guardian__ allies."
+				}
+			}
+		},
+		{
+			"Id": "handarcher",
+			"Name": "Hand Archer",
+			"Tags": ["Villain", "City", "Skill", "Blaster", "Hand", "MartialArtist", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/KjKyHPQk/handarcher.png",
+			"Health": 88067,
+			"Damage": 9557,
+			"Armor": 4353,
+			"Focus": 2122,
+			"Resistance": 1486,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 107,
+			"Dodge Chance": 5,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 105,
+			"Abilities": {
+				"Basic": {
+					"Name": "Arrow",
+					"Description": "Attack primary target for 300% damage + 20% Piercing."
+				},
+				"Special": {
+					"Name": "Arrow Storm",
+					"Description": "Attack all enemies for 190% damage + clear 1 positive effect off each enemy.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Archery",
+					"Description": "Gain +5% accuracy and +5% damage. Gain +10% damage per __Hand__ ally. Gain +10% accuracy per __Hand__ ally."
+				}
+			}
+		},
+		{
+			"Id": "handassassin",
+			"Name": "Hand Assassin",
+			"Tags": ["Villain", "City", "Mystic", "Controller", "Hand", "MartialArtist", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/269DGcdN/handassassin.png",
+			"Health": 88067,
+			"Damage": 13123,
+			"Armor": 4878,
+			"Focus": 2547,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 109,
+			"Dodge Chance": 5,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Ninjutsu",
+					"Description": "Attack primary target for 340% damage."
+				},
+				"Special": {
+					"Name": "Shuriken",
+					"Description": "Attack primary target for 480% damage + apply **Heal Block** for 3 turns.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Touch of Death",
+					"Description": "Gain +25% damage."
+				}
+			}
+		},
+		{
+			"Id": "handblademaster",
+			"Name": "Hand Blademaster",
+			"Tags": ["Villain", "City", "Skill", "Brawler", "Hand", "MartialArtist", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/MHh82nrs/handblademaster.png",
+			"Health": 88067,
+			"Damage": 14517,
+			"Armor": 4975,
+			"Focus": 2122,
+			"Resistance": 1656,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 111,
+			"Dodge Chance": 5,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Sword Slash",
+					"Description": "Attack primary target for 340% damage."
+				},
+				"Special": {
+					"Name": "Assailing Blade",
+					"Description": "Attack primary target for 430% damage + 40% chance to gain a Bonus attack for 340% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Kenjutsu",
+					"Description": "Gain +25% damage."
+				}
+			}
+		},
+		{
+			"Id": "handsentry",
+			"Name": "Hand Sentry",
+			"Aliases": ["sentry"],
+			"Tags": ["Villain", "City", "Mystic", "Protector", "Hand", "MartialArtist", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/9XS2qkFG/handsentry.png",
+			"Health": 124330,
+			"Damage": 7579,
+			"Armor": 6218,
+			"Focus": 2590,
+			"Resistance": 1656,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 103,
+			"Dodge Chance": 5,
+			"Block Chance": 20,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Sai Strike",
+					"Description": "Attack primary target for 340% damage."
+				},
+				"Special": {
+					"Name": "Smoke Bomb",
+					"Description": "Apply **Stealth** to all allies except self for 2 turns. Apply **Evade** to 4 allies. Gain **Deflect**.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Way of the Scorpion",
+					"Description": "Gain +20% Block chance and +10% damage."
+				}
+			}
+		},
+		{
+			"Id": "handsorceress",
+			"Name": "Hand Sorceress",
+			"Tags": ["Villain", "City", "Mystic", "Support", "Hand", "MartialArtist", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/dtyYR9Lg/handsorceress.png",
+			"Health": 103608,
+			"Damage": 8331,
+			"Armor": 4663,
+			"Focus": 2122,
+			"Resistance": 2590,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 105,
+			"Dodge Chance": 5,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Chi Strike",
+					"Description": "Attack primary target for 300% damage + Drain for 20% of base damage."
+				},
+				"Special": {
+					"Name": "Blood Magic",
+					"Description": "Heal all allies 4200 Health + 15% of this character's Max Health. Apply **Defense Up** to all allies.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Way of the Shadow",
+					"Description": "On turn, 25% chance to gain **Stealth** for the next 2 turn(s)."
+				}
+			}
+		},
+		{
+			"Id": "hawkeye",
+			"Name": "Hawkeye",
+			"Aliases": ["clint", "legolas"],
+			"Tags": ["Hero", "Global", "Skill", "Controller", "Avenger", "Shield", "Wave1Avenger", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/g2bPg6hj/hawkeye.png",
+			"Health": 91175,
+			"Damage": 9101,
+			"Armor": 5472,
+			"Focus": 3077,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 116,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 170,
+			"Abilities": {
+				"Basic": {
+					"Name": "Deadeye",
+					"Description": "Attack primary target for 250% damage. Gain +15% Crit chance and deal +20% Piercing with this attack. Attack is Unavoidable."
+				},
+				"Special": {
+					"Name": "Concussion Arrow",
+					"Description": "Attack primary target for 150% damage + change Speed Bar by -20%. Clear all positive effects from primary and adjacent targets.\nThis attack cannot miss and cannot be dodged.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Airburst",
+					"Description": "Attack all enemies for 190% damage. Apply **Blind** to primary target + 50% chance to apply **Blind** to all remaining targets. This attack is Unavoidable.",
+					"Starting Energy": 2,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Shot in the Dark",
+					"Description": "On turn, 50% chance to attack an enemy with **Stealth** for 200% Unavoidable damage. Clear **Stealth** from that enemy."
+				}
+			}
+		},
+		{
+			"Id": "heimdell",
+			"Name": "Heimdell",
+			"Aliases": ["allseeing"],
+			"Tags": ["Hero", "Cosmic", "Mystic", "Brawler", "Asgard", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/8Cs8pgcg/heimdell.png",
+			"Health": 28302,
+			"Damage": 2162,
+			"Armor": 1494,
+			"Focus": 438,
+			"Resistance": 438,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Hofund Slash",
+					"Description": "Attack primary target for 310% damage to primary target.\nGain an assist from a random __Asgard__ ally."
+				},
+				"Special": {
+					"Name": "Divine Foresight",
+					"Description": "Flip **Stealth** on each enemy.\nAttack all enemies for 330% damage.\nClear **Heal Block** from self and all __Asgard__ allies.",
+					"Starting Energy": 2,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Sworn Oath",
+					"Description": "Attack primary target for 360% damage. Attack all adjacent targets for 330% damage.\nApply **Heal Block** to primary and secondary targets.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "The All-Seeing",
+					"Description": "Gain +10000% Resistance against **Blind**. __Asgard__ allies gain +10000% Resistance against __Blind__.\nGain +30% Focus. __Asgard__ allies gain +30% Focus.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-__Minion__ __Asgard__ ally.\nOn WAR DEFENSE, on Spawn, apply **Defense Up** to all __Asgard__ allies for 2 turns."
+				}
+			}
+		},
+		{
+			"Id": "hela",
+			"Name": "Hela",
+			"Aliases": [],
+			"Tags": ["Villain", "Cosmic", "Mystic", "Controller", "Asgard", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/FHT5XH9x/hela.png",
+			"Health": 21280,
+			"Damage": 2772,
+			"Armor": 1277,
+			"Focus": 539,
+			"Resistance": 539,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 110,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Black Blade",
+					"Description": "Attack primary target for 300% damage + flip 1 **Deathproof** on target.\nAttack the most injured enemy for 100% Piercing, ignoring **Taunt**."
+				},
+				"Special": {
+					"Name": "Command Undead",
+					"Description": "Attack primary target for 350% damage + apply **Disrupted** for 2 turns. Gain an Assist from an Undead Asgardian.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Death Knives",
+					"Description": "Clear 3 Deathproof from all enemies. Gain +5000% Extra Focus for this action.\nAttack all enemies for 350% damage. Spread 4 negative effects from the primary target to all secondary targets.\nThis will not spread Stun.\nApply 2 Regeneration to all non-summoned ASGARDIAN allies.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Goddess of Death",
+					"Description": "On Spawn, summon an Undead Asgardian.\nOn an Undead Asgardian's Death, summon an Undead Asgardian.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-summoned __Asgard__ ally.\nGain +15% Max Health. Gain +15% Max Health per non-summoned __Asgard__ ally.\nOn WAR DEFENSE:\n> On non-summoned __Asgard__ ally's Death, summon an Undead Asgardian.\n> Gain +25% Damage.\n> __Asgard__ allies gain +25% Damage."
+				}
+			}
+		},
+		{
+			"Id": "hulk",
+			"Name": "Hulk",
+			"Aliases": ["bruce"],
+			"Tags": ["Hero", "Global", "Bio", "Protector", "Avenger", "Wave1Avenger"],
+			"Portrait_URL": "https://i.postimg.cc/P5bn9rb4/hulk.png",
+			"Health": 193746,
+			"Damage": 14424,
+			"Armor": 6841,
+			"Focus": 1592,
+			"Resistance": 1738,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 87,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Smash",
+					"Description": "Attack primary target for 300% damage. If this character is below 50% Health, multiply damage by 1.5."
+				},
+				"Special": {
+					"Name": "Rage",
+					"Description": "Gain **Taunt**. If any ally is a __Wave1Avenger__, gain **Counter**. Clear all negative effects from self.\nIf this character's Health is below 50%, Heal self for 7000 Health + 15% of Max Health.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Leap",
+					"Description": "Attack primary target for 330% damage and adjacent enemies for 260% damage. If this character is below 50% Health, multiply damage by 1.5.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Always Angry",
+					"Description": "On dropping below 50% Health, fill 100% Speed Bar + gain **Offense Up** + clear **Stun** from self. On dropping below 25% Health, gain **Deathproof** + clear all negative effects from self.\nWhile this character is below 50% Health, gain +33% Armor."
+				}
+			}
+		},
+		{
+			"Id": "humantorch",
+			"Name": "Human Torch",
+			"Aliases": ["humantorch", "fantastic four", "flameon", "flame on", "johnny storm", "johnny", "ht"],
+			"Tags": ["Hero", "Cosmic", "Bio", "Blaster", "FantasticFour"],
+			"Portrait_URL": "https://i.postimg.cc/wB6Yp80d/humantorch.png",
+			"Health": 93247,
+			"Damage": 15022,
+			"Armor": 4040,
+			"Focus": 2122,
+			"Resistance": 2610,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 127,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Hotshot",
+					"Description": "Attack primary target for 210% damage + apply **Bleed** for 2 turns."
+				},
+				"Special": {
+					"Name": "Heating Up",
+					"Description": "Gain +2 **Offense Up**, up to a maximum of 5.\nApply +1 **Offense Up**, up to a maximum of 3, to all __FantasticFour__ or __Namor___ allies.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Supernova",
+					"Description": "Attack all enemies for 400% damage. Apply **Offense Down** to all enemies.\nThis attack is Unavoidable and cannot be countered.",
+					"Starting Energy": 5,
+					"Energy Cost": 8
+				},
+				"Passive": {
+					"Name": "Flame On!",
+					"Description": "On turn, flip 2 negative effects on self to positive effects.\nGain +30% damage. __FantasticFour__ and __Namor__ allies gain +30% damage.\nGain +10000% resistance against **Bleed**."
+				}
+			}
+		},
+		{
+			"Id": "hydraarmoredguard",
+			"Name": "Hydra Armored Guard",
+			"Tags": ["Villain", "Global", "Tech", "Protector", "Hydra", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/5tnd97RQ/hydraarmoredguard.png",
+			"Health": 111912,
+			"Damage": 10745,
+			"Armor": 3109,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 92,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Rapid Fire",
+					"Description": "Attack primary target for 290% damage and 25% Piercing."
+				},
+				"Special": {
+					"Name": "Alert!",
+					"Description": "Gain **Taunt** for 1 turn and Heal self for 2500 Health + 10% of Max Health. Clear all negative effects from self.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Serum Treatment",
+					"Description": "Gain +15% Max Health. On Turn, Heal for 10% of Max Health."
+				}
+			}
+		},
+		{
+			"Id": "hydragrenadier",
+			"Name": "Hydra Grenadier",
+			"Tags": ["Villain", "Global", "Tech", "Blaster", "Hydra", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/ydxqDmMQ/hydragrenadier.png",
+			"Health": 129510,
+			"Damage": 13453,
+			"Armor": 4663,
+			"Focus": 2388,
+			"Resistance": 1592,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 87,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Flak Grenade",
+					"Description": "Attack primary target for 150% damage and 15% Piercing. Deal 130% damage and 15% Piercing to adjacent enemies."
+				},
+				"Special": {
+					"Name": "Corrosive Grenade",
+					"Description": "Attack primary target for 210% damage + clear 2 positive effects. Deal 160% damage to adjacent enemies.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Hydra Arsenal",
+					"Description": "Gain +25% Focus."
+				}
+			}
+		},
+		{
+			"Id": "hydrarifletrooper",
+			"Name": "Hydra Rifle Trooper",
+			"Tags": ["Villain", "Global", "Tech", "Blaster", "Hydra", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/j5FpPWKs/hydrarifletrooper.png",
+			"Health": 93258,
+			"Damage": 14395,
+			"Armor": 3109,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 95,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Talon Assault Rifle",
+					"Description": "Attack primary target for 290% damage and 25% Piercing."
+				},
+				"Special": {
+					"Name": "Hail of Bullets",
+					"Description": "Attack all enemies for 230% damage",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "For the Cause",
+					"Description": "Gain +15% damage and +10% Health."
+				}
+			}
+		},
+		{
+			"Id": "hydrascientist",
+			"Name": "Hydra Scientist",
+			"Tags": ["Villain", "Global", "Skill", "Support", "Hydra", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/vTxpzQH5/hydrascientist.png",
+			"Health": 103608,
+			"Damage": 12517,
+			"Armor": 3109,
+			"Focus": 2122,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 94,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Talon Pistol",
+					"Description": "Attack primary target for 280% damage and 25% Piercing. +50% chance to apply **Heal Block** for 1 turn."
+				},
+				"Special": {
+					"Name": "Test Patient Zero",
+					"Description": "Apply **Deathproof** to lowest Health ally and Heal that ally for 10000 Health + 15% of this character's Max Health.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Experimental Serum",
+					"Description": "On Turn, 30% chance to apply 2 positive effects to 2 allies."
+				}
+			}
+		},
+		{
+			"Id": "hydrasniper",
+			"Name": "Hydra Sniper",
+			"Tags": ["Villain", "Global", "Tech", "Blaster", "Hydra", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/MXkg3hvN/hydrasniper.png",
+			"Health": 93248,
+			"Damage": 12357,
+			"Armor": 1244,
+			"Focus": 2122,
+			"Resistance": 1592,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 93,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Marksman Shot",
+					"Description": "Attack primary target for 290% damage and 25% Piercing."
+				},
+				"Special": {
+					"Name": "Zero In",
+					"Description": "Gain **Offense Up** on self for 2 turns. Apply **Offense Up** to all allies for 1 turn. Apply **Speed Up** to self.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "On Target",
+					"Description": "Gain +15% damage and +10% Piercing."
+				}
+			}
+		},
+		{
+			"Id": "invisiblewoman",
+			"Name": "Invisible Woman",
+			"Aliases": ["iw", "sue", "suestorm"],
+			"Tags": ["Hero", "Cosmic", "Bio", "Protector", "FantasticFour"],
+			"Portrait_URL": "https://i.postimg.cc/bwyc5tjJ/invisiblewoman.png",
+			"Health": 29791,
+			"Damage": 1663,
+			"Armor": 638,
+			"Focus": 644,
+			"Resistance": 539,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 105,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Cosmic Rays",
+					"Description": "Attack primary target for 290% damage. Barrier self for 10% of this character's Max Health."
+				},
+				"Special": {
+					"Name": "Bending Light",
+					"Description": "Clear 2 negative effects from self and all allies. Apply **Stealth** to self and all allies.\nApply **Defense Up** for 2 turns to self and all allies.\nClear **Stealth** from highest Health ally. Apply 3 **Deflect** + **Immunity** for 2 turns to highest Health ally.\nClear **Stealth** from all enemies.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Psionic Shields",
+					"Description": "Apply **Offense Down** for 2 turns to all enemies.\nBarrier all allies for 40% of this character's Max Health.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Hard Light",
+					"Description": "When an enemy attacks this character with Barrier, attack that enemy for 250% damage.\nWhen an enemy attacks a __FantasticFour__ ally with Barrier, attack that enemy for 250% damage.\nGain +20% Max Health. __FantasticFour__ and __Namor__ allies gain +20% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "ironfist",
+			"Name": "Iron Fist",
+			"Aliases": ["danny rand", "defenders", "punfenders"],
+			"Tags": ["Hero", "City", "Mystic", "Brawler", "Defender", "MartialArtist"],
+			"Portrait_URL": "https://i.postimg.cc/kMV4ZK2v/ironfist.png",
+			"Health": 124330,
+			"Damage": 10745,
+			"Armor": 3732,
+			"Focus": 2547,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 106,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Martial Arts",
+					"Description": "Attack primary target for 250% damage. Chain to 2 adjacent targets for 130% damage.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Inner Peace",
+					"Description": "Clear all negative effects from self.\nHeal self and all __Defender__ allies for 8000 Health + 10% of this character's Max Health. Then, heal most injured __City__ __Hero__ ally for 8000 Health + 10% of this character's Max Health\nChange Speed Bar by 30%.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "The Iron Fist",
+					"Description": "Attack primary target for 700% damage + clear 3 positive effects.\n60% chance to gain **Offense Down**.\nCannot be Blocked.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Son of K'un-Lun",
+					"Description": "On Spawn, heal self and __Defender__ allies for 30% of this character's Max Health. Heal additional __City__ __Hero__ allies for 10% of this character's Max Health.\nOn Turn, 40% chance to heal self and __Defender__ allies for 30% of this character's Max Health, and heal additional __City__ __Hero__ allies for 20% of this character's Max Health.\nGain +5% damage for each __Defender__ ally."
+				}
+			}
+		},
+		{
+			"Id": "ironman",
+			"Name": "Iron Man",
+			"Aliases": ["tony stark", "3000", "shwarma", "legendary"],
+			"Tags": ["Hero", "Global", "Tech", "Avenger", "Blaster", "Wave1Avenger", "PowerArmor", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/59Z0Myvd/ironman.png",
+			"Health": 100500,
+			"Damage": 16462,
+			"Armor": 9325,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 25,
+			"Speed": 101,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Repulsor Blast",
+					"Description": "Attack primary target for 280% damage. 30% chance to Chain to up to 2 adjacent targets for 230% damage.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Rocket Barrage",
+					"Description": "Attack all enemies for 210% Unavoidable damage. If __Captain America__ is your ally, attack all enemies for 250% Unavoidable damage instead.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Unibeam",
+					"Description": "Attack primary target for 600% damage.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Stark Upgrades",
+					"Description": "Gain +15% Extra Crit chance. Apply +15% Extra Crit chance to __Tech__ allies. Apply +10% Extra Crit chance all allies."
+				}
+			}
+		},
+		{
+			"Id": "jessicajones",
+			"Name": "Jessica Jones",
+			"Aliases": ["jj", "defenders", "punfenders"],
+			"Tags": ["Hero", "City", "Bio", "Controller", "Defender"],
+			"Portrait_URL": "https://i.postimg.cc/Qx1MNDkB/jessicajones.png",
+			"Health": 134691,
+			"Damage": 14177,
+			"Armor": 1866,
+			"Focus": 3077,
+			"Resistance": 10612,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Jaw Breaker",
+					"Description": "Attack primary target for 220% damage + 50% chance to Bonus attack 1-2 times for 170% damage.\nGenerate 1 Ability Energy for a random __Defender__ ally. Each attack has a 50% chance to generate 1 Ability Energy for a random ally."
+				},
+				"Special": {
+					"Name": "Shake it Off",
+					"Description": "Clear all negative effects from self and all allies.\nGenerate 1 Ability Energy for each __Defender__ ally. Generate 4 Ability Energy for random allies.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Rejection",
+					"Description": "Attack primary target for 400% damage + clear all positive effects.\nGain +100000% Extra Focus for this attack.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Denial",
+					"Description": "Gain +40% Resistance.\n__Defender__ allies gain +40% Resistance.\nAdditional __City__ allies gain +20% Resistance.\nOther additional allies gain +15% Resistance."
+				}
+			}
+		},
+		{
+			"Id": "juggernaut",
+			"Name": "Juggernaut",
+			"Aliases": ["juggs", "brotherhood"],
+			"Tags": ["Villain", "Global", "Mystic", "Protector", "Brotherhood"],
+			"Portrait_URL": "https://i.postimg.cc/wjzj7r0w/juggernaut.png",
+			"Health": 148164,
+			"Damage": 11971,
+			"Armor": 9325,
+			"Focus": 1126,
+			"Resistance": 4284,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 77,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Overwhelming Blow",
+					"Description": "Attack primary target for 290% damage. Gain +1 **Charged**, up to a maximum of 4. Gain Ability Energy.\nThis attack cannot be blocked."
+				},
+				"Special": {
+					"Name": "Immovable Object",
+					"Description": "Gain **Taunt** + **Defense Up** for 2 turns + **Immunity** + **Deathproof** + 2 **Regeneration**.\nIf Magneto is an ally, gain **Taunt** for 2 turns.",
+					"Starting Energy": 7,
+					"Energy Cost": 7
+				},
+				"Ultimate": {
+					"Name": "Crushing Charge",
+					"Description": "Attack primary and adjacent targets for 380% damage. Damage is increased by 80% per **Charged**.\nThis attack cannot be blocked.",
+					"Starting Energy": 6,
+					"Energy Cost": 8
+				},
+				"Passive": {
+					"Name": "I'm the Juggernaut!",
+					"Description": "On Turn, gain **Charged**, up to a maximum of 4. On Spawn, clear all but one stack of **Charged**. If any **Charged** were cleared, fill Speed Bar by 40%.\nIf Magneto is an ally, when an enemy attacks this character, fill Speed Bar by 20%.\nGain +5% Max Health\nGain +10% Resistance\nGain +1000% Resistance while he has **Immunity**.\nGain +1000% Resistance against **Stun**."
+				}
+			}
+		},
+		{
+			"Id": "killmonger",
+			"Name": "Killmonger",
+			"Aliases": ["wakandan"],
+			"Tags": ["Villain", "Global", "Skill", "Blaster", "Wakanda", "Mercenary"],
+			"Portrait_URL": "https://i.postimg.cc/8CKpXzDY/killmonger.png",
+			"Health": 129509,
+			"Damage": 11971,
+			"Armor": 7458,
+			"Focus": 3119,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 104,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Focus Fire",
+					"Description": "Attack primary target for 330% damage + 30% Drain. On Crit, Bonus Attack 2 times for 330% damage + 30% Drain and lose **Charged**. Otherwise, gain +1 **Charged** up to a maximum of 5."
+				},
+				"Special": {
+					"Name": "Full Auto",
+					"Description": "Attack primary target for 200% damage 3 times. On Crit, gain **Offense Up** and lose **Charged**. Otherwise, gain +1 **Charged** up to a maximum of 5.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Battle Frenzy",
+					"Description": "Attack primary target for 300% damage. Chain to all adjacent targets for 240% damage.\nOn Crit, attack all enemies for 200% damage and lose **Charged**. Otherwise, gain +1 **Charged** up to a maximum of 5.\n**Counter** breaks this Chain.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Retribution",
+					"Description": "On **Defense Up**, attack the most injured enemy for 330% damage.\nOn Kill, heal for 10% of this character's Max Health.\nGain +20% Drain.\nGain +20% Crit Chance per **Charged**.\nIn Raids, +20% chance to **Counter**. In Raids, gain +20% chance to **Counter** for each __Wakandan__ ally."
+				}
+			}
+		},
+		{
+			"Id": "kingpin",
+			"Name": "Kingpin",
+			"Tags": ["Villain", "City", "Skill", "Protector"],
+			"Portrait_URL": "https://i.postimg.cc/NjxfTxnB/kingpin.png",
+			"Health": 207216,
+			"Damage": 7595,
+			"Armor": 0,
+			"Focus": 2547,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 75,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Batter",
+					"Description": "Attack primary target for 270% damage. 50% chance to gain an Assist."
+				},
+				"Special": {
+					"Name": "Crime Lord",
+					"Description": "Summon 2-3 Bodyguards at 340% normal damage and 100% of normal Health. Bodyguard gains **Taunt** on self when Summoned.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Boss's Orders",
+					"Description": "Apply **Defense Up** to all allies for 2 turns. Apply **Offense Up** to 5 allies. 30% chance for Assist from allies (twice as likely to select a __Villain__ or __Mercenary__ for Assist).",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Mastermind",
+					"Description": "At the start of each __Villain__ ally's turn, 25% chance for an ally to gain **Team Attack** for that turn."
+				}
+			}
+		},
+		{
+			"Id": "korath",
+			"Name": "Korath the Pursuer",
+			"Aliases": ["korath", "kree"],
+			"Tags": ["Villain", "Cosmic", "Tech", "Blaster", "Kree", "Mercenary"],
+			"Portrait_URL": "https://i.postimg.cc/vmH8vVR9/korath.png",
+			"Health": 113969,
+			"Damage": 10745,
+			"Armor": 4353,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 114,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Smart-linked Rifle",
+					"Description": "Attack primary target for 190% damage + 40% Piercing. Apply **Slow** for 1 turn."
+				},
+				"Special": {
+					"Name": "Target Lock",
+					"Description": "Attack primary target for 260% damage. Apply **Taunt** to target for 1 turn. Gain an Assist from an ally (greater assist chance from __Mercenary__ and __Kree__ allies).\nGain +750% Extra Focus for this attack.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Takedown Shot",
+					"Description": "Attack primary target for 570% damage + apply **Heal Block** for 2 turns. 50% chance to apply **Ability Block**.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Hot Pursuit",
+					"Description": "On Enemy Death, gain **Speed Up** for 2 turns. On Spawn, gain **Speed Up** for 2 turns."
+				}
+			}
+		},
+		{
+			"Id": "kreecyborg",
+			"Name": "Kree Cyborg",
+			"Aliases": ["cyborg"],
+			"Tags": ["Villain", "Cosmic", "Tech", "Blaster", "Kree", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/Hxrpq1kk/kreecyborg.png",
+			"Health": 119150,
+			"Damage": 11614,
+			"Armor": 6218,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 79,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Energy Blaster",
+					"Description": "Attack primary target for 270% damage.\nOn Kill, Chain to 1 adjacent target for 270% damage and grant 1 Ability Energy to 2 random allies."
+				},
+				"Special": {
+					"Name": "Auto Targeter",
+					"Description": "Attack primary target for 360% damage + Bonus Attack for 260% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Integrated Systems",
+					"Description": "On Enemy **Taunt**, gain **Offense Up** for 2 turns and apply **Offense Up** to a __Kree__ ally for 2 turns.\nGain +5% Speed per __Kree__ ally.\nOn Turn, copy all positive effects from an ally __Ultimus__ to this character."
+				}
+			}
+		},
+		{
+			"Id": "kreenoble",
+			"Name": "Kree Noble",
+			"Aliases": ["noble"],
+			"Tags": ["Villain", "Cosmic", "Bio", "Controller", "Kree", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/0Qh8xXzd/kreenoble.png",
+			"Health": 137799,
+			"Damage": 8331,
+			"Armor": 6218,
+			"Focus": 2590,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 86,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Kree Sidearm",
+					"Description": "Attack primary target for 270% damage. Clear 1 positive effect from the target and generate 1 Ability Energy for 1-2 allies."
+				},
+				"Special": {
+					"Name": "Imperial Decree",
+					"Description": "Apply **Assist Now** to an adjacent ally. If that ally is __Kree__, they also gain **Offense Up**. Attack primary target for 530% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Loyalist",
+					"Description": "On Turn, clear 1 negative effect from 2 allies with negative effects. If those allies are __Kree__, remove an additional negative effect."
+				}
+			}
+		},
+		{
+			"Id": "kreeoracle",
+			"Name": "Kree Oracle",
+			"Aliases": ["oracle"],
+			"Tags": ["Villain", "Cosmic", "Tech", "Support", "Kree", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/4ytX3vtC/kreeoracle.png",
+			"Health": 145050,
+			"Damage": 9101,
+			"Armor": 1866,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 97,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Kree Energy Pistol",
+					"Description": "Attack primary target for 270% damage. Generate 1 Ability Energy to 1 random ally."
+				},
+				"Special": {
+					"Name": "Nanomachine Cloud",
+					"Description": "Apply **Regeneration** to all allies for 2 turns. Apply an additional **Regeneration** to __Ronan__ and __Kree__ __Minion__ allies.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Zeal",
+					"Description": "Whenever this character or an ally gains energy, heal them for 2000 Health + 5% of this character's Max Health.\nIf that target is Ronan or a __Kree__ __Minion__, heal them for 4000 Health + 10% of this character's Max Health."
+				}
+			}
+		},
+		{
+			"Id": "kreereaver",
+			"Name": "Kree Reaper",
+			"Aliases": ["reaper"],
+			"Tags": ["Villain", "Cosmic", "Bio", "Brawler", "Kree", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/Vsbf4wh7/kreereaver.png",
+			"Health": 124330,
+			"Damage": 10744,
+			"Armor": 9325,
+			"Focus": 2759,
+			"Resistance": 1656,
+			"Crit Damage": 130,
+			"Crit Chance": 25,
+			"Speed": 83,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Predatory Strike",
+					"Description": "Attack primary target for 270% damage + apply **Bleed**."
+				},
+				"Special": {
+					"Name": "Ferocious Pursuit",
+					"Description": "Attack primary target for 540% damage + apply **Heal Block** for 2 turns.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Hunter-Killer",
+					"Description": "On Crit, heal self for 15% of Max Health and generate 1 Ability Energy for 1-2 random __Kree__ allies.\nGain +15% Crit Chance.\nGain +5% Crit Chance per __Kree__ __Minion__ ally."
+				}
+			}
+		},
+		{
+			"Id": "kreeroyalguard",
+			"Name": "Kree Royal Guard",
+			"Aliases": ["royal guard", "krg"],
+			"Tags": ["Villain", "Cosmic", "Bio", "Protector", "Kree", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/Z5JJTd5g/kreeroyalguard.png",
+			"Health": 134690,
+			"Damage": 11614,
+			"Armor": 7834,
+			"Focus": 2122,
+			"Resistance": 1656,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 117,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Guardian Blaster",
+					"Description": "Attack primary target for 180% damage. Gain **Counter**."
+				},
+				"Special": {
+					"Name": "Call to Glory",
+					"Description": "Gain **Taunt** + **Defense Up**. Apply **Defense Up** to all __Kree__ allies. Heal self for 1850 Health + 10% of Max Health.\nIf __Ronan__ is an ally, heal for an additional 1850 Health + 10% of Max Health.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Royal Guard Armor",
+					"Description": "While in **Taunt**, when attacked, 75% chance to generate 1 Ability Energy for a random __Kree__ ally.\nGain +20% Armor. Gain +5% Armor per __Kree__ ally."
+				}
+			}
+		},
+		{
+			"Id": "loki",
+			"Name": "Loki",
+			"Tags": ["Villain", "Cosmic", "Mystic", "Controller", "Asgard", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/bwLpdwGv/loki.png",
+			"Health": 88067,
+			"Damage": 10745,
+			"Armor": 3732,
+			"Focus": 3608,
+			"Resistance": 2722,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 115,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Eldritch Bolt",
+					"Description": "Attack primary target for 260% Piercing. 50% chance to gain **Evade**."
+				},
+				"Special": {
+					"Name": "Mind Control",
+					"Description": "Apply **Defense Down** to primary target for 2 turns.\nOn WAR DEFENSE, with 4 or more __Asgard__ allies, apply **Taunt** to primary target.\nMind Control 2 enemies to attack the primary target. The controlled enemies gain +25% Damage for this attack.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Mirror Image",
+					"Description": "Apply **Stealth** to self and all allies except Mirror Images for 2 turns.\nSummon 2-3 Mirror Images at 340% of normal Damage and 150% of normal Health. Mirror Images gain **Evade**.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "God of Mischief",
+					"Description": "On Spawn, gain 15% Speed Bar. __Mystic__ __Controller__ allies gain 10% Speed Bar.\nApply -30% Resistance to all enemies.\nGain +20% Focus. __Mystic__ __Controller__ allies gain +20% Focus.\nGain +20% Resistance. __Mystic__ __Controller__ allies gain 20% Resistance.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-minion __Asgard__ ally.\nWhen an __Asgard__ ally drops below 50% Max Health, apply **Stealth** to that ally."
+				}
+			}
+		},
+		{
+			"Id": "lukecage",
+			"Name": "Luke Cage",
+			"Aliases": ["defenders", "punfenders"],
+			"Tags": ["Hero", "City", "Bio", "Protector", "Defender"],
+			"Portrait_URL": "https://i.postimg.cc/Yq6pK3MY/lukecage.png",
+			"Health": 124345,
+			"Damage": 7595,
+			"Armor": 9791,
+			"Focus": 1699,
+			"Resistance": 1699,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 80,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Beat Up",
+					"Description": "30% chance to apply **Assist Now** to a random __Hero__ ally. If that ally is a __Defender__ they also gain **Offense Up**.\nAttack primary target for 330% damage."
+				},
+				"Special": {
+					"Name": "Bring it On!",
+					"Description": "Gain **Taunt** for 2 turns + 2 **Regeneration**. Clear all negative effects from self.\nApply **Regeneration** to all __Defender__ allies.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Unbreakable",
+					"Description": "Gain **Defense Up** for 2 turns + **Deathproof**.\nApply **Defense Up** to all __Defender__ allies for 2 turns. Apply **Defense Up** to all additional allies. Generate 1 - 3 Ability Energy for random allies.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Power Man",
+					"Description": "Gain +5% Max Health per __Defender__ ally.\nGain +5% Armor.\n+15% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "mbaku",
+			"Name": "MBaku",
+			"Aliases": ["mbaku"],
+			"Tags": ["Hero", "Global", "Mystic", "Protector", "Wakanda"],
+			"Portrait_URL": "https://i.postimg.cc/8chVGpQN/mbaku.png",
+			"Health": 173024,
+			"Damage": 11971,
+			"Armor": 7274,
+			"Focus": 1635,
+			"Resistance": 1635,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 88,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Cudgel Slam",
+					"Description": "Attack primary target for 300% damage. On target Dodge, Bonus Attack for 300% damage."
+				},
+				"Special": {
+					"Name": "Call of the Mountain",
+					"Description": "Gain **Taunt** + 2 **Counter**. Gain +2 Charged, up to a maximum of 5.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Jabari Avalanche",
+					"Description": "Attack primary target and all adjacent targets for 320% damage. On Kill, Chain to target adjacent to primary and attack that target and all adjacent targets for 320% damage.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Ancestral Might",
+					"Description": "On **Defense Up**, Heal for 15% of Max Health. If already at Max Health, gain +1 **Defense Up**.\nWhile **Charged**, gain +100% Block Chance and +50% Block Amount.\nOn Block, lose 1 **Charged**.\nIn Raids, on Block, Heal for 10% of Max Health.\nIn Raids gain +25% Block chance."
+				}
+			}
+		},
+		{
+			"Id": "magneto",
+			"Name": "Magneto",
+			"Aliases": ["mags", "brotherhood", "legendary"],
+			"Tags": ["Villain", "Global", "Controller", "Mutant", "Brotherhood"],
+			"Portrait_URL": "https://i.postimg.cc/FKRmSXcV/magneto.png",
+			"Health": 108789,
+			"Damage": 14424,
+			"Armor": 8393,
+			"Focus": 3290,
+			"Resistance": 2611,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 90,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Magnetic Force",
+					"Description": "Attack primary target for 220% damage + 20% Piercing. Chain to 1-2 additional targets for 190% damage + 20% Piercing."
+				},
+				"Special": {
+					"Name": "Polarized Beam",
+					"Description": "Attack primary target for 240% damage + 20% Piercing + apply **Disrupted** for 2 turns + apply **Slow** for 2 turns + remove all positive effects.\nThis attack is Unavoidable.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Magnetic Vortex",
+					"Description": "Pull all enemies up to 2 spaces toward the primary target, then attack primary and targets within 2 spaces for 240% damage + apply **Blind**.\nThis attack is Unavoidable and cannot be Counterattacked.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Brotherhood of Mutants",
+					"Description": "On Spawn, fill 15% Speed Bar. Fill 15% Speed Bar per __Brotherhood__ ally. On enemy Crit, apply Speed Up to self and all __Brotherhood__ allies.\nGain +50% Focus. __Brotherhood__ allies gain +50% Focus.\nGain +30% Max Health. __Brotherhood__ allies gain +30% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "mantis",
+			"Name": "Mantis",
+			"Aliases": ["guardians"],
+			"Tags": ["Hero", "Cosmic", "Bio", "Controller", "Guardian", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/qqfdWtF1/mantis.png",
+			"Health": 137798,
+			"Damage": 7595,
+			"Armor": 3109,
+			"Focus": 3119,
+			"Resistance": 3119,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Sleeeeep",
+					"Description": "Attack primary target for 240% damage. If **Charged**, then in addition, **Stun** the target. Then lose **Charged**.\nIf __Drax__ is an ally, apply **Deflect** to __Drax__."
+				},
+				"Special": {
+					"Name": "Empathy",
+					"Description": "Heal self and adjacent allies for 3000 Health + 15% of this character's Max Health. Heal all additional allies for 1750 Health + 10% of this character's Max Health. Apply **Regeneration** to self and adjacent allies.\nIn Raids, apply additional **Regeneration** to all allies.",
+					"Starting Energy": 2,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Soothe",
+					"Description": "Redistribute Health between self and lowest health ally evenly + heal self and that ally for 2000.\nIn Raids, Transfer 2 negative effects from both self and that ally to primary target. Clear 2 positive effects from primary target.\nThis ability cannot target summoned allies.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Will to Power",
+					"Description": "On Spawn, gain **Charged**.\nOn Turn, Heal for 15% of this character's Max Health.\nGain +5% Max Health per __Guardian__ ally."
+				}
+			}
+		},
+		{
+			"Id": "mercliutenant",
+			"Name": "Mercenary Lieutenant",
+			"Aliases": ["merc lieutenant", "merc lt"],
+			"Tags": ["Villain", "City", "Tech", "Support", "Mercenary", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/RFJBP1g3/mercliutenant.png",
+			"Health": 84305,
+			"Damage": 7595,
+			"Armor": 4975,
+			"Focus": 2590,
+			"Resistance": 2590,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Cover Fire",
+					"Description": "Attack primary target for 290% damage. Grant 1 ability energy to an ally."
+				},
+				"Special": {
+					"Name": "Call the Shots",
+					"Description": "Apply **Offense Up** to all allies for 1 turn. Apply **Speed Up** to all allies for 1 turn.",
+					"Starting Energy": 2,
+					"Energy Cost": 2
+				},
+				"Passive": {
+					"Name": "Squad Coherency",
+					"Description": "On Turn, 40% chance to heal Lowest Health ally for 20% of this character's Max Health. If ally is __Mercenary__, heal for +30% of this character's Max Health."
+				}
+			}
+		},
+		{
+			"Id": "mercriotguard",
+			"Name": "Mercenary Riot Guard",
+			"Aliases": ["merc riot guard", "merc rg", "mrg"],
+			"Tags": ["Villain", "City", "Skill", "Protector", "Mercenary", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/0NBvdX0R/mercriotguard.png",
+			"Health": 129510,
+			"Damage": 9101,
+			"Armor": 7771,
+			"Focus": 1592,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 90,
+			"Dodge Chance": 0,
+			"Block Chance": 25,
+			"Block Amount": 50,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Combat Pistol",
+					"Description": "Attack primary target for 340% damage."
+				},
+				"Special": {
+					"Name": "Rampart",
+					"Description": "Gain **Taunt** for 1 turn. Gain **Defense Up** on self for 3 turns. Apply **Defense Up** to 4 Lowest Health allies for 1 turn.",
+					"Starting Energy": 2,
+					"Energy Cost": 2
+				},
+				"Passive": {
+					"Name": "Riot Suppression",
+					"Description": "Gain +25% Block chance."
+				}
+			}
+		},
+		{
+			"Id": "mercsniper",
+			"Name": "Mercenary Sniper",
+			"Aliases": ["merc sniper"],
+			"Tags": ["Villain", "City", "Tech", "Blaster", "Mercenary", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/QN5D1bBw/mercsniper.png",
+			"Health": 82886,
+			"Damage": 16587,
+			"Armor": 1866,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 96,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Sniper Shot",
+					"Description": "Attack primary target for 290% damage and 25% Piercing."
+				},
+				"Special": {
+					"Name": "Steady Aim",
+					"Description": "Attack primary target for 450% damage and 50% Piercing.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "High Velocity",
+					"Description": "Gain +15% Damage and +10% Piercing"
+				}
+			}
+		},
+		{
+			"Id": "mercsoldier",
+			"Name": "Mercenary Soldier",
+			"Aliases": ["merc soldier"],
+			"Tags": ["Villain", "City", "Skill", "Blaster", "Mercenary", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/qMTTL3yR/mercsoldier.png",
+			"Health": 103623,
+			"Damage": 10922,
+			"Armor": 6218,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Assault Rifle",
+					"Description": "Attack primary target for 340% damage."
+				},
+				"Special": {
+					"Name": "Frag Grenade",
+					"Description": "Attack primary target for 240% damage + adjacent targets for 190% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Tactical Loadout",
+					"Description": "Gain 20% Damage and 15% Health."
+				}
+			}
+		},
+		{
+			"Id": "minnerva",
+			"Name": "Minn-Erva",
+			"Aliases": ["minnerva", "minny", "god healer", "kree", "technerva"],
+			"Tags": ["Villain", "Cosmic", "Support", "Tech", "Kree"],
+			"Portrait_URL": "https://i.postimg.cc/MpZ8kJsJ/minnerva.png",
+			"Health": 147122,
+			"Damage": 10744,
+			"Armor": 3109,
+			"Focus": 3119,
+			"Resistance": 3119,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Bio-Weapon",
+					"Description": "Attack primary target for 200% damage + apply **Bleed**.\nApply **Regeneration** to the most injured non-summoned ally."
+				},
+				"Special": {
+					"Name": "Genetic Reconstruction",
+					"Description": "Heal most injured ally for 5000 Health + 15% of this character's Max Health.\nGenerate Ability Energy to a random __Kree__ ally.\nRevive dead ally with 40% Max Health + apply 2 **Deathproof**.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Mass Phlebotomy",
+					"Description": "Steal 15% Health from all enemies and redistribute to all allies. All allies receive an additional 5000 Health. This bypasses **Heal Block**.\nAlways apply **Regeneration** for 2 turns to all allies.\nAlways apply **Bleed** for 2 turns to all enemies.Apply Deflect to all __Kree__ allies.",
+					"Starting Energy": 7,
+					"Energy Cost": 7
+				},
+				"Passive": {
+					"Name": "Kree Nanotech",
+					"Description": "On ally Death, change Speed Bar by 25%.\nOn enemy Death, heal the most injured non-summoned ally for 15% of this character's Max Health. If that ally is __Kree__, also apply a random positive effect."
+				}
+			}
+		},
+		{
+			"Id": "misterfantastic",
+			"Name": "Mister Fantastic",
+			"Aliases": ["fantastic four", "misterfantastic", "reed richards", "reed", "stretchyman", "mf"],
+			"Tags": ["Hero", "Cosmic", "Bio", "Controller", "FantasticFour"],
+			"Portrait_URL": "https://i.postimg.cc/BQBGwnBC/misterfantastic.png",
+			"Health": 155411,
+			"Damage": 9101,
+			"Armor": 3109,
+			"Focus": 3608,
+			"Resistance": 2610,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 102,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Tensile Strength",
+					"Description": "Attack primary target for 230% damage. Chain to 3 adjacent targets for 190% damage.\nCounter breaks this Chain."
+				},
+				"Special": {
+					"Name": "Entangle",
+					"Description": "Attack primary target for 400% damage + apply **Stun**.",
+					"Starting Energy": 6,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Orbital Assault",
+					"Description": "Clear Defense Up from primary target.\nAttack primary target for 450% damage.\nGain +100000% Extra Focus for this attack.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "For Science!",
+					"Description": "Gain +20% Resistance. __FantasticFour_ and __Namor__ allies gain +20% Resistance.\nGain +20% Focus. __FantasticFour__ and __Namor__ allies gain +20% Focus.\nOn self and each __FantasticFour__ ally's turn, 100% chance to apply **Assist Now** to self, __Namor__, or a random __FantasticFour__ ally. If **Assist Now** is applied, clear **Blind** on that target.\nOn Turn, choose 3 random enemies. If they have a positive effect, remove 1."
+				}
+			}
+		},
+		{
+			"Id": "mistersinister",
+			"Name": "Mister Sinister",
+			"Aliases": [],
+			"Tags": ["Villain", "Global", "Mutant", "Marauders", "Support"],
+			"Portrait_URL": "https://i.postimg.cc/MZBSfwDW/mrsinister.png",
+			"Health": 31919,
+			"Damage": 1848,
+			"Armor": 1494,
+			"Focus": 745,
+			"Resistance": 539,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Psionic Beam",
+					"Description": "Attack primary target for 300% damage + 50% damage per non-Cloned __Marauders__ ally.\nGain an assist from a random Cloned ally.\nGain an assist from a random __Marauders__ ally."
+				},
+				"Special": {
+					"Name": "Gene Therapy",
+					"Description": "Clear **Heal Block** from the 2 most injured allies. Gain **Offense Up** for 2 turns.\nTransfer all positive effects from an ally __Mystique__ to this character. Spread all positive effects from this character to all __Mutant__ or Cloned allies.\nHeal all allies for 2000 Health + 20% of this character's Max Health.\nHeal all Clones for 1500 Health + 10% of this character's Max Health.",
+					"Starting Energy": 2,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Clone",
+					"Description": "Summon a Clone of the primary target. This Clone scales with __Mister Sinister__'s stats instead of the primary target.\nClone gains **Defense Up** for 2 turns.\nOn WAR DEFENSE, generate 2 Ability Energy for all __Marauders__ and Cloned allies.",
+					"Starting Energy": 3,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Mutant Geneticist",
+					"Description": "On Spawn, generate 3 Ability Energy for this character if non-Cloned.\nOn turn, Heal 15% of Max Health + 5% of Max Health per __Marauders__ ally. Apply **Regeneration** to the 2 most injured __Mutant__ allies.\nOn __Marauders__ ally's turn, if this character's Health is greater than 50%, redistribute 10% Health from this character to that ally.\nGain +50% Focus. __Marauders__ allies gain +50% Focus.\nGain +20% Max Health. __Marauders__ allies gain +20% Max Health.\nOn WAR DEFENSE, __Marauders__ allies gain +30% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "mordo",
+			"Name": "Mordo",
+			"Tags": ["Villain", "Cosmic", "Mystic", "Controller", "MartialArtist", "Supernatural"],
+			"Portrait_URL": "https://i.postimg.cc/y8fCsp5g/mordo.png",
+			"Health": 103608,
+			"Damage": 9101,
+			"Armor": 4663,
+			"Focus": 2547,
+			"Resistance": 1699,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 113,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Arcane Scourge",
+					"Description": "Attack primary target for 220% damage + apply 2 random negative effects."
+				},
+				"Special": {
+					"Name": "Mesmerize",
+					"Description": "Stun primary target + 50% chance to **Blind** up to 3 targets. 50% chance to **Slow** up to 2 targets.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Demons of Denak",
+					"Description": "Attack all targets for 240% damage + apply **Heal Block** for 2 turns. This attack cannot miss.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Too Many Sorcerers",
+					"Description": "On Death of any Character, Heals self for 10% of this character's Max Health. On Death of a __Mystic__, Heal self for 15% of this character's Max Health + gain 1-2 Ability Energy."
+				}
+			}
+		},
+		{
+			"Id": "msmarvel",
+			"Name": "Ms. Marvel",
+			"Aliases": ["msmarvel", "ms marvel"],
+			"Tags": ["Hero", "City", "Bio", "Brawler", "Inhuman"],
+			"Portrait_URL": "https://i.postimg.cc/HLVDx4DS/msmarvel.png",
+			"Health": 155412,
+			"Damage": 14424,
+			"Armor": 3109,
+			"Focus": 1635,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 102,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 35,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Big Bash",
+					"Description": "Attack primary target for 200% damage. Gain **Deflect**."
+				},
+				"Special": {
+					"Name": "Rejuvenate",
+					"Description": "Heal self for 20000 Health + 50% of this character's Max Health. If Health started below 50%, also gain **Slow**.",
+					"Starting Energy": 2,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Embiggen",
+					"Description": "Attack all enemies for 220% damage + 60% chance to generate 1 Ability Energy per target hit. Energy is granted to random __Hero__ allies.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Fangirl",
+					"Description": "Gain **Assist Now** on each __Hero__ __Brawler__ ally's turn. On Turn, grant **Assist Now** to a random __Hero__ __Brawler__ ally.\nWhen a __Hero__ ally drops below 50% Health, gain **Taunt**. If that ally is a __Brawler__, also gain 2 **Deflect**."
+				}
+			}
+		},
+		{
+			"Id": "mysterio",
+			"Name": "Mysterio",
+			"Aliases": ["sinistersix", "sinister six"],
+			"Tags": ["Villain", "City", "Tech", "Controller", "SpiderVerse", "SinisterSix"],
+			"Portrait_URL": "https://i.postimg.cc/mrJxFzTT/mysterio.png",
+			"Health": 19152,
+			"Damage": 1848,
+			"Armor": 1277,
+			"Focus": 644,
+			"Resistance": 644,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "The Ol' One-Two",
+					"Description": "Clear 3 positive effects from primary target. Attack primary target for 250% damage."
+				},
+				"Special": {
+					"Name": "Master of Illusion",
+					"Description": "Apply **Blind** to primary target.\nGain an assist from a random __SinisterSix__ ally.\nGain an assist from a random ally.\nIf target is a __City__ __Hero__, apply **Ability Block**.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Smoke and Mirrors",
+					"Description": "Attack all enemies for 350% damage. Apply **Heal Block** to all enemies.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Grand Masquerade",
+					"Description": "On Spawn, apply 2 **Deflect** to self and all __SinisterSix__ allies.\nGain +20% Focus for self per __SpiderVerse__ ally.\n__SpiderVerse__ allies gain +20% Focus.\nOn Death, summon 2 Mirror Images at 260% of normal Damage and 150% of normal Health."
+				}
+			}
+		},
+		{
+			"Id": "mystique",
+			"Name": "Mystique",
+			"Aliases": ["brotherhood"],
+			"Tags": ["Villain", "Global", "Mutant", "Controller", "Brotherhood", "Marauders"],
+			"Portrait_URL": "https://i.postimg.cc/63vkVWQn/mystique.png",
+			"Health": 137799,
+			"Damage": 10745,
+			"Armor": 3109,
+			"Focus": 2122,
+			"Resistance": 2611,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 120,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Mimic Strike",
+					"Description": "Attack primary target for 210% damage + Bonus Attack 1-2 times for 160% damage + copy 2 positive effects and apply them to self.\nIf __Magneto__ is an ally, copy all positive effects."
+				},
+				"Special": {
+					"Name": "Infiltrate",
+					"Description": "Attack primary target for 240% damage. Attack 3 additional targets that do not have **Stealth** for 170% damage.\nAttack all additional targets that do have **Stealth** for 170% damage + clear **Stealth** from each target.\nIf no enemies had **Stealth**, gain **Stealth**.\nIf __Magneto__ is ally, this attack is Unavoidable.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Shapeshifter",
+					"Description": "Attack primary target for 150% damage.\nTrick 1 random enemy to attack the primary target. The tricked enemy gains +200% Damage for this attack.\nGain **Evade**.",
+					"Starting Energy": 7,
+					"Energy Cost": 7
+				},
+				"Passive": {
+					"Name": "Subterfuge",
+					"Description": "On Spawn, gain **Evade**. Gain 1000% Resistance against **Bleed**.\nOn __Magneto__'s turn, prolong all positive effects on self and __Magneto__ by a duration of 1, up to a maximum of 3."
+				}
+			}
+		},
+		{
+			"Id": "namor",
+			"Name": "Namor",
+			"Aliases": ["fantastic four"],
+			"Tags": ["Villain", "Global", "Mutant", "Brawler"],
+			"Portrait_URL": "https://i.postimg.cc/PJnB2gLc/namor.png",
+			"Health": 173024,
+			"Damage": 8254,
+			"Armor": 5658,
+			"Focus": 2122,
+			"Resistance": 2610,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 113,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Neptune's Trident",
+					"Description": "Attack primary target for 210% damage + 50% Piercing."
+				},
+				"Special": {
+					"Name": "Tidal Wave",
+					"Description": "Attack primary target for 350% damage. Attack adjacent targets for 340% damage.\nOn target Block, Bonus Attack 2 times for 100% Piercing to primary and adjacent targets.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Giganto",
+					"Description": "Attack all enemies for 300% damage.\nOn War Offense:\n> This attack always Crits\n> Clear all positive effects from each target\n> Change Speed Bar of all targets by -50%\nThis attack is Unavoidable and cannot be Countered.",
+					"Starting Energy": 7,
+					"Energy Cost": 7
+				},
+				"Passive": {
+					"Name": "Imperius Rex",
+					"Description": "Gain +20% damage.\nGain +30% armor.\nOn War Offense:\n> On Spawn, apply **Offense Up** for 2 turns to all __FantasticFour__ allies and self.\n> On Spawn, apply **Deflect** for 2 turns to all __FantasticFour__ allies or self.\n> Gain additional +30% Damage.\n>  __FantasticFour__ allies gain +30% Damage."
+				}
+			}
+		},
+		{
+			"Id": "nebula",
+			"Name": "Nebula",
+			"Tags": ["Villain", "Cosmic", "Tech", "Brawler", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/gjy15g80/nebula.png",
+			"Health": 113969,
+			"Damage": 10745,
+			"Armor": 4663,
+			"Focus": 2590,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 107,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Relentless Pursuit",
+					"Description": "Attack primary target for 280% damage. Gain **Speed Up** for 1 turn."
+				},
+				"Special": {
+					"Name": "Challenging Foe",
+					"Description": "Attack primary target for 200% damage + gain 2 **Counter**.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Mayhem",
+					"Description": "Attack primary target for 320% damage. 60% chance to Chain to up to 2 adjacent targets for 250% damage. Gain 2 **Evade**.\n**Counter** breaks this Chain.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Exploit Weakness",
+					"Description": "15% chance to Assist when an ally attacks. 15% chance to Revive on Death with 10% of Max Health."
+				}
+			}
+		},
+		{
+			"Id": "nickfury",
+			"Name": "Nick Fury",
+			"Aliases": ["director", "fury", "s.h.i.e.l.d", "legendary"],
+			"Tags": ["Hero", "Global", "Skill", "Support", "Avenger", "Shield", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/SQW0Jx3p/nickfury.png",
+			"Health": 113969,
+			"Damage": 10745,
+			"Armor": 6559,
+			"Focus": 2709,
+			"Resistance": 2785,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 99,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Custom I.C.E.R.",
+					"Description": "Attack primary target for 230% damage + Chain to 1 adjacent target for 180% damage. Generate 1 ability energy on each Crit. Energy is granted to adjacent allies.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Rally",
+					"Description": "Gain **Defense Up**. Spread all positive effects on self to all allies.\nHeal self and all __Shield__ __Minion__ allies for 10000 Health + 15% of this character's Max Health.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Reinforcements",
+					"Description": "Summon 2-3 __Shield__ Agent at 340% normal Damage and 150% of normal Health + gain positive effect for 2 turns.\nPossible Summons:\n> __S.H.I.E.L.D. Operative__ + __Nick Fury__ gains **Speed Up**.\n> __S.H.I.E.L.D. Security__ + __Nick Fury__ gains **Offense Up**.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Director of S.H.I.E.L.D.",
+					"Description": "On Spawn, grant **Speed Up** to self and all __Shield__ __Minion__ allies. On Turn, 50% chance to grant __Speed Up__ to self + __Shield__ __Minion__ allies.\n30% chance to grant **Assist Now** to self or a random ally on each __Hero__ ally's turn. If the ally granted **Assist Now** is a __Shield__ __Minion__ or __Nick Fury__, they also gain **Offense Up**.\n__Shield__ __Minion__ allies gain +10% Armor. __Shield__ __Minion__ allies gain +30% Resistance"
+				}
+			}
+		},
+		{
+			"Id": "nightnurse",
+			"Name": "Night Nurse",
+			"Tags": ["Hero", "City", "Skill", "Support"],
+			"Portrait_URL": "https://i.postimg.cc/ZKZG3hzv/nightnurse.png",
+			"Health": 103608,
+			"Damage": 6890,
+			"Armor": 1866,
+			"Focus": 3077,
+			"Resistance": 3077,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Self Defense",
+					"Description": "Attack primary target for 250% damage + 50% chance to apply **Slow** for 2 turn(s)."
+				},
+				"Special": {
+					"Name": "First Aid",
+					"Description": "Heal lowest Health ally for 4200 Health + 20% of this character's Max Health.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Urgent Care",
+					"Description": "Heal all allies for 3200 Health + 10% of this character's Max Health. Apply 2 **Regeneration** to each ally.",
+					"Starting Energy": 0,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Triage",
+					"Description": "On turn, if the ally with the least Health has less than 100% Health, 25% chance to Heal them for 15% of this character's Max Health."
+				}
+			}
+		},
+		{
+			"Id": "nobu",
+			"Name": "Nobu",
+			"Aliases": ["hand"],
+			"Tags": ["Villain", "City", "Mystic", "Controller", "Hand", "MartialArtist"],
+			"Portrait_URL": "https://i.postimg.cc/c4mVB5d9/nobu.png",
+			"Health": 93248,
+			"Damage": 9101,
+			"Armor": 4663,
+			"Focus": 2547,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 106,
+			"Dodge Chance": 5,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Shadow Strike",
+					"Description": "Attack primary target for 310% damage + 70% chance to gain **Stealth** for 1 turn. +40% chance to gain assist from __Hand__ ally."
+				},
+				"Special": {
+					"Name": "Unseen Army",
+					"Description": "Summon 2-3 Hand Ninjas at 340% normal damage and 100% of normal Health.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Ready the Trap",
+					"Description": "Gain 2 **Counter** + apply 1-2 **Counter** to all allies.",
+					"Starting Energy": 2,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Secrets of Death",
+					"Description": "__Hand__ allies get a +10% chance to Revive on Death with 20% Health. Non-Hand allies get a +5% chance to Revive on Death with 15% Health."
+				}
+			}
+		},
+		{
+			"Id": "okoye",
+			"Name": "Okoye",
+			"Aliases": ["wakandan"],
+			"Tags": ["Hero", "Global", "Skill", "Controller", "Wakanda"],
+			"Portrait_URL": "https://i.postimg.cc/dVVgHm1q/okoye.png",
+			"Health": 103608,
+			"Damage": 12517,
+			"Armor": 4663,
+			"Focus": 2229,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 126,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Spear Strike",
+					"Description": "Attack primary target for 200% damage + clear a positive effect.\nGain +50% Extra Focus for this attack."
+				},
+				"Special": {
+					"Name": "Precision Strike",
+					"Description": "Attack primary target for 220% damage + apply **Defense Down**. Chain to 1 adjacent target for 190% damage.\n**Counter** breaks this Chain.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Aerial Impalement",
+					"Description": "Gain **Offense Up**.\nAttack primary target for 280% Piercing + change Speed Bar by -50%.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Dora Milaje",
+					"Description": "Gain +50% Piercing. On **Defense Up**, gain **Immunity**.\nOn self or __Wakandan__ ally Crit, gain +1 **Charged**, up to a maximum of 5.\nOn __Wakandan__ ally's turn, while in **Charged**, gain **Assist Now** and lose 1 **Charged**. Otherwise, 20% chance to gain **Assist Now**."
+				}
+			}
+		},
+		{
+			"Id": "phoenix",
+			"Name": "Phoenix",
+			"Aliases": ["jean", "dark phoenix", "xmen", "legendary"],
+			"Tags": ["Hero", "Global", "Mutant", "Controller", "Xmen", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/y8ptwgg0/phoenix.png",
+			"Health": 98427,
+			"Damage": 15022,
+			"Armor": 3109,
+			"Focus": 3119,
+			"Resistance": 2610,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 118,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Psychic Blast",
+					"Description": "Attack primary target for 250% damage + clear 2 positive effects."
+				},
+				"Special": {
+					"Name": "Bestow Light",
+					"Description": "Apply **Stealth** to all allies to 2 turns. Apply **Defense Up** to all allies.\nRedistribute 25% of Max Health from self to all allies. All allies receive an additional 10000 Health. This bypasses **Heal Block**.\nTransfer all negative effects from allies to self.\nIf there are no allies, attack self for 5000% Piercing damage.\nIf __Phoenix__ dies, her Passive Ability is triggered.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Phoenix Force",
+					"Description": "Attack primary target for 400% damage + clear all positive effects.\nGain +50000% Extra Focus for this attack.",
+					"Starting Energy": 6,
+					"Energy Cost": 8
+				},
+				"Passive": {
+					"Name": "Phoenix Rising",
+					"Description": "On Death, summon __Dark Phoenix_.\n__Phoenix__ cannot be revived.\nOn ally **Taunt**, gain **Taunt**.\nGain +30% Damage. __Xmen__ allies gain +30% Damage.\nGain +30% Max Health. __Xmen__ allies gain +30% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "psylocke",
+			"Name": "Psylocke",
+			"Aliases": ["xmen"],
+			"Tags": ["Hero", "Global", "Mutant", "Brawler", "Xmen", "MartialArtist"],
+			"Portrait_URL": "https://i.postimg.cc/0N6FxkDF/psylocke.png",
+			"Health": 119149,
+			"Damage": 16462,
+			"Armor": 3731,
+			"Focus": 3608,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 93,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Psi Knife",
+					"Description": "Attack primary target for 270% Piercing damage."
+				},
+				"Special": {
+					"Name": "Telekinetic Armament",
+					"Description": "Attack primary target for 200% Piercing damage. Chain to 3 adjacent targets for 200% Piercing damage. Clear 2 positive effects from each target.\n**Counter** breaks this Chain.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Astral Butterflies",
+					"Description": "Transfer 2 negative effects from each ally to primary target. Transfer all negative effects from self and __Xmen__ allies to primary target.\nAttack primary target for 300% Piercing damage.\nThis attack cannot miss.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Reinvigorate",
+					"Description": "On Spawn, gain **Evade** + **Counter**. When an __Xmen__ ally drops below 50% Max Health, apply **Evade** + **Counter** to that ally.\nGain +1000% Resistance against **Disrupted**."
+				}
+			}
+		},
+		{
+			"Id": "punisher",
+			"Name": "Punisher",
+			"Aliases": ["punfenders", "frank"],
+			"Tags": ["Hero", "City", "Skill", "Blaster"],
+			"Portrait_URL": "https://i.postimg.cc/MGh4pCYT/punisher.png",
+			"Health": 98428,
+			"Damage": 18108,
+			"Armor": 7771,
+			"Focus": 1656,
+			"Resistance": 1656,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 98,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "M4 Carbine",
+					"Description": "Attack primary target for 240% damage + 20% Piercing. 30% chance to Chain to up to 2 additional targets for 200% damage + 20% Piercing.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Grenade Launcher",
+					"Description": "Attack primary target for 200% damage + 10% Piercing. Attack all adjacent enemies for 160% damage + 10% Piercing.",
+					"Starting Energy": 0,
+					"Energy Cost": 0
+				},
+				"Ultimate": {
+					"Name": "Fully Loaded",
+					"Description": "Attack all enemies for 200% damage + 20% Piercing.",
+					"Starting Energy": 0,
+					"Energy Cost": 0
+				},
+				"Passive": {
+					"Name": "Lock and Load",
+					"Description": "If at least one ally is a __City__ __Hero__, gain +20% chance to assist on non-attack abilities. Gain +20% chance to assist on non-attack abilities per __Defender__ ally.\nIf __Daredevil__ is an ally, when an enemy attacks him, attack that enemy for 200% damage + 10% Piercing.\nGain +10% Damage. Gain +50% Damage against __Villain__ targets.\n__City__ allies gain +5% Damage. __City__ __Hero__ allies gain +10% Damage instead.\n__City__ __Hero__ allies gain an additional +30% Damage against __Villain__ targets."
+				}
+			}
+		},
+		{
+			"Id": "pyro",
+			"Name": "Pyro",
+			"Aliases": ["brotherhood"],
+			"Tags": ["Villain", "Global", "Mutant", "Blaster", "Brotherhood"],
+			"Portrait_URL": "https://i.postimg.cc/zBKQbxdk/pyro.png",
+			"Health": 88067,
+			"Damage": 10237,
+			"Armor": 4975,
+			"Focus": 3979,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 95,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Flame Thrower",
+					"Description": "Attack primary target and adjacent targets for 150% damage. Apply **Bleed** to each target."
+				},
+				"Special": {
+					"Name": "Pyrotechnics",
+					"Description": "Attack primary target and adjacent targets for 180% damage. Apply 2 **Bleed** for 2 turns + Clear 2 positive effects from each target.\nIf __Magneto__ is ally, clear all positive effects from each target.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Firecrafting",
+					"Description": "Attack primary target and adjacent targets for 230% damage + apply **Disrupted** for 2 turns.\nIf __Magneto__ is ally, each target has **Bleed** prolonged by a duration of 1.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Stoke the Flames",
+					"Description": "Gain +25% Extra Focus.\nWhen __Pyro__ is attacked, fill +15% Speed Bar.\nIf __Magneto__ is ally, when an enemy drops below 50% health, apply **Heal Block**."
+				}
+			}
+		},
+		{
+			"Id": "quake",
+			"Name": "Quake",
+			"Aliases": ["skye", "tremors"],
+			"Tags": ["Hero", "Global", "Bio", "Controller", "Shield", "Inhuman"],
+			"Portrait_URL": "https://i.postimg.cc/hvn59V6R/quake.png",
+			"Health": 88067,
+			"Damage": 12517,
+			"Armor": 3109,
+			"Focus": 3108,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 102,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Seismic Blast",
+					"Description": "Attack primary target and adjacent targets for 150% damage. Apply **Slow** to primary target and adjacent targets for 2 turns."
+				},
+				"Special": {
+					"Name": "Shockwave",
+					"Description": "Attack primary target for 210% damage + clear 2 positive effects. 40% chance to Chain up to 2 targets for 160% damage + clear 2 positive effects.\n**Counter** breaks this Chain.\nIf __Coulson__ or __Yo-Yo__ is an ally, apply **Slow** to primary target and secondary targets.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Earthquake",
+					"Description": "Attack all enemies for 320% damage. Apply **Offense Down** on 5 enemies for 1 turn.",
+					"Starting Energy": 2,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Secret Warrior",
+					"Description": "Gain +20% Extra Focus. __Shield__ allies gain +5% damage. __Inhuman__ allies gain +5% Extra Focus."
+				}
+			}
+		},
+		{
+			"Id": "ravagerboomer",
+			"Name": "Ravager Boomer",
+			"Aliases": ["boomer"],
+			"Tags": ["Villain", "Cosmic", "Tech", "Blaster", "Ravager", "Minion", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/PJMFKPnp/ravagerboomer.png",
+			"Health": 103608,
+			"Damage": 10745,
+			"Armor": 6218,
+			"Focus": 1656,
+			"Resistance": 1656,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 108,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Plasma Blast",
+					"Description": "Attack primary target for 340% damage."
+				},
+				"Special": {
+					"Name": "Full Blast",
+					"Description": "Attack primary target for 270% damage and adjacent targets for 220% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Heavy Artillery",
+					"Description": "15% chance to Assist __Ravager__ allies. 10% chance to Assist non-Ravager allies."
+				}
+			}
+		},
+		{
+			"Id": "ravagerbruiser",
+			"Name": "Ravager Bruiser",
+			"Aliases": ["bruiser"],
+			"Tags": ["Villain", "Cosmic", "Bio", "Protector", "Ravager", "Minion", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/y6h57r31/ravagerbruiser.png",
+			"Health": 113969,
+			"Damage": 10745,
+			"Armor": 6528,
+			"Focus": 1167,
+			"Resistance": 1656,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 111,
+			"Dodge Chance": 0,
+			"Block Chance": 25,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Cutlazz",
+					"Description": "Attack primary target for 290% damage. 70% chance to **Taunt** for 1 turn."
+				},
+				"Special": {
+					"Name": "Avast!",
+					"Description": "Gain **Defense Up** for 3 turns. Heal self for 2000 Health + 5% of this character's Max Health.",
+					"Starting Energy": 2,
+					"Energy Cost": 2
+				},
+				"Passive": {
+					"Name": "Seasoned Fighter",
+					"Description": "Gain +25% Block chance."
+				}
+			}
+		},
+		{
+			"Id": "ravagerstitcher",
+			"Name": "Ravager Stitcher",
+			"Aliases": ["stitcher"],
+			"Tags": ["Villain", "Cosmic", "Tech", "Support", "Ravager", "Minion", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/CLF25Hbj/ravagerstitcher.png",
+			"Health": 113994,
+			"Damage": 7595,
+			"Armor": 5821,
+			"Focus": 1656,
+			"Resistance": 1656,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 110,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Disintegrator",
+					"Description": "Attack primary target for 160% damage + apply **Bleed**."
+				},
+				"Special": {
+					"Name": "Stitcher Kit",
+					"Description": "Heal most injured ally for 3500 Health + 8% of this character's Max Health. Then Heal most injured ally for 3500 Health + 8% of this character's Max Health.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Stimutox Treatment",
+					"Description": "Gain +25% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "redskull",
+			"Name": "Red Skull",
+			"Aliases": ["hydra"],
+			"Tags": ["Villain", "Global", "Bio", "Controller", "Hydra"],
+			"Portrait_URL": "https://i.postimg.cc/yYvbZgT2/redskull.png",
+			"Health": 124345,
+			"Damage": 8331,
+			"Armor": 5597,
+			"Focus": 2547,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 85,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Hydra-99 Pistol",
+					"Description": "Attack primary target for 200% damage + apply **Defense Down**. 60% chance to Chain for 160% damage."
+				},
+				"Special": {
+					"Name": "Elite Guard",
+					"Description": "Summon 2-3 Hydra Agents at 340% normal damage and 100% of normal Health.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Storm Assault",
+					"Description": "Apply **Offense Up** to all allies + Attack primary target for 400% damage. Call Assists from 3-5 __Hydra__ allies",
+					"Starting Energy": 3,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Hail Hydra",
+					"Description": "Chance to gain ability energy when any ally dies + Chance to gain ability energy when __Hydra__ allies die"
+				}
+			}
+		},
+		{
+			"Id": "rescue",
+			"Name": "Rescue",
+			"Aliases": ["pepper", "potts"],
+			"Tags": ["Hero", "Global", "Tech", "Support", "PowerArmor", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/HknP4YZn/rescue.png",
+			"Health": 98427,
+			"Damage": 8331,
+			"Armor": 3109,
+			"Focus": 3119,
+			"Resistance": 3608,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 117,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Sonic Repulsor",
+					"Description": "Attack primary target for 200% damage. Chain to an adjacent target for 140% damage. Always apply **Slow** to each target."
+				},
+				"Special": {
+					"Name": "Tech Shield",
+					"Description": "Barrier all allies for 3500 + 10% of this character's Max Health. Apply **Regeneration** to all allies. In War, apply 2 **Regeneration** to all allies instead.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Ultimate": {
+					"Name": "Firewall",
+					"Description": "Clear all negative effects from all allies. Apply **Offense Up** to self and __PowerArmor_ allies for 2 turns.\nIn War, apply **Immunity** to self and all allies for 2 turns.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Stark Upgrade",
+					"Description": "In War, on Spawn, Barrier __PowerArmor_ allies for 2000 + 10% of this character's Max Health.\nWhen an ally drops below 50% Health, Barrier them for 2000 + 5% of this character's Max Health.\nGain +15% Max Health.\nIn War, Barrier for an additional 5% of this character's Max Health.\n__PowerArmor__ allies gain +15% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "rhino",
+			"Name": "Rhino",
+			"Aliases": ["sinistersix"],
+			"Tags": ["Villain", "City", "Bio", "Protector", "SpiderVerse", "SinisterSix"],
+			"Portrait_URL": "https://i.postimg.cc/DwNpx9Hg/rhino.png",
+			"Health": 142978,
+			"Damage": 15022,
+			"Armor": 8268,
+			"Focus": 637,
+			"Resistance": 2610,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 90,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Pummel",
+					"Description": "Attack primary target for 290% damage."
+				},
+				"Special": {
+					"Name": "Furious Charge",
+					"Description": "Gain **Taunt**.\nClear 1 negative effect from self and each adjacent ally.\nAttack primary and all adjacent targets for 350% damage.\nThis attack cannot be blocked.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Stampede",
+					"Description": "Attack primary and all adjacent targets for 380% damage.\nThis attack gains +20% damage per __City__ __Hero__ enemy.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Rhino Hide",
+					"Description": "On Spawn, gain **Counter**.\nGain 25% Max Health per __SinisterSix__ ally.\nOn **Blind**, change Speed Bar by 100%.\nOn **Blind**, clear 1 negative effect from self and each ally."
+				}
+			}
+		},
+		{
+			"Id": "rocketracoon",
+			"Name": "Rocket Raccoon",
+			"Aliases": ["guardians", "rocket", "buildabear", "build-a-bear", "rabbit", "technerva"],
+			"Tags": ["Hero", "Cosmic", "Tech", "Blaster", "Guardian", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/N0rJSNww/rocketracoon.png",
+			"Health": 88067,
+			"Damage": 18633,
+			"Armor": 4353,
+			"Focus": 2122,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 102,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Rocket Rifle",
+					"Description": "Attack primary target for 180% damage + 15% Crit Chance. Attack all adjacent targets for 150% damage + 15% Crit Chance."
+				},
+				"Special": {
+					"Name": "Pretty Good Plan",
+					"Description": "Attack primary target for 340% damage.\nIf __Groot__ is an ally, gain an Assist from __Groot__ and apply **Taunt** to __Groot__.\n70% chance to gain an Assist from a random ally.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Maximum Damage",
+					"Description": "Attack all enemies for 300% damage. If __Groot__ is an ally, attack all enemies for 360% damage instead.\nGain 2 **Counter**.",
+					"Starting Energy": 1,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Expert Tinker",
+					"Description": "__Tech__ allies gain +5% Damage.\nOn Turn, 40% chance to apply a random positive effect to 2 random allies."
+				}
+			}
+		},
+		{
+			"Id": "ronan",
+			"Name": "Ronan the Accuser",
+			"Aliases": ["ronan", "kree"],
+			"Tags": ["Villain", "Cosmic", "Mystic", "Controller", "Kree"],
+			"Portrait_URL": "https://i.postimg.cc/JnV6Lb1H/ronan.png",
+			"Health": 134690,
+			"Damage": 12517,
+			"Armor": 7771,
+			"Focus": 3396,
+			"Resistance": 3183,
+			"Crit Damage": 130,
+			"Crit Chance": 20,
+			"Speed": 90,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Hammer Smash",
+					"Description": "Clear 2 positive effects from primary target.\nAttack primary target for 180% damage + 25% Piercing.\nThis attack is Unavoidable."
+				},
+				"Special": {
+					"Name": "Judgment",
+					"Description": "Summon 2 __Kree__ allies at 340% normal Damage and 100% of normal Health. Clear 2 negative effects from all allies.\nPossible Summons:\n> __Kree Reaper__.\n> __Kree Noble__.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Universal Weapon",
+					"Description": "Attack all enemies for 290% damage. Apply **Ability Block** to the primary target for 2 turns. Apply **Ability Block** to 2 additional enemies.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Accuser",
+					"Description": "Whenever this character or a __Kree ally gains energy, they change Speed Bar by 20% and are healed for 4200 Health + 15% of this character's max Health. This effect may be triggered by another passive.\nGain +30% Resist. Apply +30% Resist to __Kree__ allies.\nApply +20% Max Health and +20% Damage to non-summoned __Kree__ __Minion__ allies."
+				}
+			}
+		},
+		{
+			"Id": "sabretooth",
+			"Name": "Sabretooth",
+			"Aliases": ["brotherhood"],
+			"Tags": ["Villain", "Global", "Mutant", "Brawler", "Brotherhood", "Marauders"],
+			"Portrait_URL": "https://i.postimg.cc/kG7TVqRn/sabretooth.png",
+			"Health": 134691,
+			"Damage": 8485,
+			"Armor": 3109,
+			"Focus": 1911,
+			"Resistance": 1061,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 101,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Claw Rake",
+					"Description": "Attack primary target for 340% damage."
+				},
+				"Special": {
+					"Name": "Thrash",
+					"Description": "Attack primary target for 460% damage. If target has **Taunt**, this ability deals an additional 80% Piercing damage.\nAttack all adjacent targets for 320% damage.\nThis attack cannot be blocked.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Blood Rush",
+					"Description": "Attack primary target for 380% damage + apply **Bleed** for 2 turns. Chain to 4-5 targets for 330% damage + apply **Bleed** for 2 turns.\n**Counter** breaks this Chain.\nIf __Magneto__ is an ally, this attack cannot be stopped by **Counter**.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Feral Healing",
+					"Description": "Gain +5% damage per __Brotherhood__ ally.\nOn Turn, Heal for 15% of this character's Max Health. When this character drops below 50% Health, gain **Deathproof**."
+				}
+			}
+		},
+		{
+			"Id": "scarlettwitch",
+			"Name": "Scarlet Witch",
+			"Tags": ["Hero", "Global", "Mystic", "Controller", "Avenger", "Supernatural"],
+			"Portrait_URL": "https://i.postimg.cc/9MdxFrM8/scarlettwitch.png",
+			"Health": 103608,
+			"Damage": 16462,
+			"Armor": 0,
+			"Focus": 3608,
+			"Resistance": 3608,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 107,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Hex Bolt",
+					"Description": "Attack primary target for 160% Piercing damage + apply 1-2 random negative effects."
+				},
+				"Special": {
+					"Name": "Warp Reality",
+					"Description": "Redistribute your total squad health evenly. Apply **Deflect** to all allies. Apply **Defense Up** to all allies.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Chaos Wave",
+					"Description": "Attack all enemies for 100% Piercing damage + each target has all negative effects prolonged by duration of 1.\nThis attack is Unavoidable.",
+					"Starting Energy": 7,
+					"Energy Cost": 7
+				},
+				"Passive": {
+					"Name": "Power of Chthon",
+					"Description": "On Turn, 50% chance to spread a negative effect from an enemy with a negative effect to an adjacent target.\nThis will not spread **Stun**."
+				}
+			}
+		},
+		{
+			"Id": "scientistsupreme",
+			"Name": "Scientist Supreme",
+			"Aliases": ["a.i.m."],
+			"Tags": ["Villain", "Global", "Tech", "Support", "Aim"],
+			"Portrait_URL": "https://i.postimg.cc/QCS01wcc/scientistsupreme.png",
+			"Health": 124330,
+			"Damage": 7168,
+			"Armor": 2488,
+			"Focus": 2122,
+			"Resistance": 3545,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 97,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Serum Pistol",
+					"Description": "Attack primary target for 160% damage. Apply 2 random negative effects to primary target."
+				},
+				"Special": {
+					"Name": "Field Trials",
+					"Description": "Convert 4 negative effects on each ally into the equivalent positive effect.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Retro Vaccination",
+					"Description": "Heal all allies for 3500 Health + 5% of this character's Max Health. All allies & all enemies will receive 1-3 random negative effects for 2 turns.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Mad Science",
+					"Description": "On Turn, 25% chance to Revive an ally with 20% Max Health. __Aim__ allies Revive with 30% of Max Health instead."
+				}
+			}
+		},
+		{
+			"Id": "shieldassault",
+			"Name": "S.H.I.E.L.D. Assault",
+			"Aliases": ["shield assault", "assault"],
+			"Tags": ["Hero", "Global", "Skill", "Blaster", "Shield", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/VsF7xr25/shieldassault.png",
+			"Health": 98428,
+			"Damage": 10745,
+			"Armor": 8702,
+			"Focus": 2122,
+			"Resistance": 2430,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 97,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Concussion Grenade",
+					"Description": "Attack primary target for 110% damage + 35% Piercing. Attack adjacent targets for 100% damage + 35% Piercing."
+				},
+				"Special": {
+					"Name": "Barrage",
+					"Description": "Attack all targets for 230% damage + 50% chance to remove 1 positive effect from all targets.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Airborne",
+					"Description": "Gain +50% Extra Crit chance. Nick Fury and __Shield__ __Minion__ allies gain +50% Crit chance."
+				}
+			}
+		},
+		{
+			"Id": "shieldmedic",
+			"Name": "S.H.I.E.L.D. Medic",
+			"Aliases": ["shield medic", "medic"],
+			"Tags": ["Hero", "Global", "Skill", "Support", "Shield", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/DyyCnfK6/shieldmedic.png",
+			"Health": 103608,
+			"Damage": 8331,
+			"Armor": 6218,
+			"Focus": 2866,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 109,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "I.C.E.R. Pistol",
+					"Description": "Attack primary target for 240% damage + apply **Offense Down** for 1-2 turns. On Crit, change Speed Bar by -25%."
+				},
+				"Special": {
+					"Name": "Emergency Treatment",
+					"Description": "20% chance to Revive dead ally with 10% Health. Heal all allies for 1500 Health + 15% of this character's Max Health.\nIf allies are __Nick Fury__ or __Shield__ __Minion__, then heal for an additional 20% of this character's Max Health.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Fighting Fit",
+					"Description": "On turn, 50% chance to heal most injured ally for 20% of this character's Max Health + apply **Regeneration** for 2 turns.\nIf ally is __Nick Fury__ or __Shield__ __Minion__, then apply an additional **Regeneration**."
+				}
+			}
+		},
+		{
+			"Id": "shieldoperative",
+			"Name": "S.H.I.E.L.D. Operative",
+			"Aliases": ["shield operative", "operative"],
+			"Tags": ["Hero", "Global", "Skill", "Support", "Shield", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/kX1T4rJm/shieldoperative.png",
+			"Health": 100500,
+			"Damage": 9101,
+			"Armor": 6218,
+			"Focus": 2760,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 115,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Snap Shot",
+					"Description": "Attack primary target for 250% damage. On Crit, change Speed Bar by -25%. Clear a positive effect from target.\nIf Nick Fury is ally, he gains the cleared effect."
+				},
+				"Special": {
+					"Name": "Extraction",
+					"Description": "Apply **Stealth** to most injured ally for 2 turns + heal for 1200 Health + 10% of this character's Max Health. Apply 3 **Regeneration**.\nIf ally is __Nick Fury__ or __Shield__ __Minion__, apply additional **Regeneration**.",
+					"Starting Energy": 2,
+					"Energy Cost": 2
+				},
+				"Passive": {
+					"Name": "Special Agent",
+					"Description": "Gain +20% Extra Focus. __Nick Fury__ and __Shield__ __Minion__ allies gain +20% Extra Focus.\nOn Spawn, apply 2 **Counter** to __Nick Fury__ if ally.\nOn Turn, apply **Counter** to Nick Fury or __Shield__ __Minion__ allies."
+				}
+			}
+		},
+		{
+			"Id": "shieldsecurity",
+			"Name": "S.H.I.E.L.D. Security",
+			"Aliases": ["shield security", "security"],
+			"Tags": ["Hero", "Global", "Skill", "Protector", "Shield", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/pLmq50rn/shieldsecurity.png",
+			"Health": 103608,
+			"Damage": 7595,
+			"Armor": 9014,
+			"Focus": 2122,
+			"Resistance": 2972,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 94,
+			"Dodge Chance": 0,
+			"Block Chance": 20,
+			"Block Amount": 35,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Stun Baton",
+					"Description": "Attack primary target for 270% damage + apply **Slow**."
+				},
+				"Special": {
+					"Name": "Crowd Control",
+					"Description": "Attack primary target for 370% damage + Bonus attack for 350% damage. If target has **Slow**, apply **Stun**.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "S.H.I.E.L.D. Agent",
+					"Description": "+20% Block chance. +10% Block amount.\nFor each ally that is __Nick Fury__ or __Shield__ __Minion__, gain +10% Block chance.\nWhen an ally drops below 50% Health, gain **Taunt**. If that ally is __Nick Fury__ or a __Shield__ __Minion__, also gain **Defense Up**."
+				}
+			}
+		},
+		{
+			"Id": "shieldtrooper",
+			"Name": "S.H.I.E.L.D. Trooper",
+			"Aliases": ["shield trooper", "trooper"],
+			"Tags": ["Hero", "Global", "Skill", "Blaster", "Shield", "Minion"],
+			"Portrait_URL": "https://i.postimg.cc/K8CQPn3p/shieldtrooper.png",
+			"Health": 102572,
+			"Damage": 8948,
+			"Armor": 6156,
+			"Focus": 2086,
+			"Resistance": 2086,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 98,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "I.C.E.R. Rifle",
+					"Description": "Attack primary target for 330% damage. On Crit, change Speed Bar by -25%."
+				},
+				"Special": {
+					"Name": "Overwatch",
+					"Description": "Attack primary target for 370% damage + 100% Piercing.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Passive": {
+					"Name": "Fire Support",
+					"Description": "When an enemy attacks an adjacent ally, attack that enemy for 250% damage + on Crit, change Speed Bar by -25%."
+				}
+			}
+		},
+		{
+			"Id": "shocker",
+			"Name": "Shocker",
+			"Aliases": ["sinistersix"],
+			"Tags": ["Villain", "City", "Tech", "Blaster", "SpiderVerse", "SinisterSix"],
+			"Portrait_URL": "https://i.postimg.cc/HL5zBVQY/shocker.png",
+			"Health": 93247,
+			"Damage": 13936,
+			"Armor": 8578,
+			"Focus": 1635,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 113,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Concussion Bolt",
+					"Description": "Attack primary target for 280% Piercing. On target Dodge, apply **Assist Now** to a random __SinisterSix__ ally."
+				},
+				"Special": {
+					"Name": "Sonic Dissonance",
+					"Description": "Generate 1 Ability Energy for self.\nApply **Offense Up** to self for 2 turns.\nApply **Offense Up** to all __SinisterSix__ allies.\nChange Speed Bar by 80%.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Subsonic Blast",
+					"Description": "Attack primary and all adjacent targets for 120% Piercing.\nRepeat attack using a new primary target randomly chosen from the previous secondary targets.\nRepeat attack a third time using a new primary target randomly chosen from the previous secondary targets.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Vibro-Shock",
+					"Description": "Gain 20% Armor. Gain +5% Armor per __SinisterSix__ ally.\nGain 20% Damage. Gain +5% Damage per __City__ __Hero__ enemy."
+				}
+			}
+		},
+		{
+			"Id": "shuri",
+			"Name": "Shuri",
+			"Aliases": ["wakandan", "legendary"],
+			"Tags": ["Hero", "Global", "Tech", "Support", "Wakanda"],
+			"Portrait_URL": "https://i.postimg.cc/tRD5S0Vx/shuri.png",
+			"Health": 103607,
+			"Damage": 8331,
+			"Armor": 6218,
+			"Focus": 3119,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 112,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Vibranium Gauntlets",
+					"Description": "Attack primary target and all adjacent targets for 200% damage. Apply **Heal Block** to primary target for 2 turns."
+				},
+				"Special": {
+					"Name": "Instant Upgrade",
+					"Description": "Apply **Defense Up** to self and all allies for 2 turns.\nApply +1 **Charged**, up to a maximum of 5, to self and all __Wakandan__ allies.\nGenerate Ability Energy for 2 random allies. Generate Ability Energy for 1 random __Wakandan__ ally.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Kimoyo Healing",
+					"Description": "Heal the most injured ally for 500 Health + 15% of this character's Max Health. If that ally is __Wakandan__, clear 1 negative effect.\nThen, repeat the above 4 additional times.",
+					"Starting Energy": 0,
+					"Energy Cost": 4
+				},
+				"Passive": {
+					"Name": "Wakanda Forever",
+					"Description": "On Spawn, apply **Speed Up** to self and all __Wakandan__ allies.\nOn Turn, heal the most injured ally for 10% of this character's Max Health. While in **Charged**, heal an additional most injured ally for 10% of this character's Max Health and lose 1 **Charged**.\nOn **Defense Up**, generate Ability Energy for self.\nIn Raids, self and all __Wakandan__ allies gain +40% Max Health. In Raids, self and all __Wakandan__ allies gain +20% Armor.\nIn Raids, when self or any __Wakandan__ ally drops below 50% Max Health, gain 3 **Deflect**."
+				}
+			}
+		},
+		{
+			"Id": "sif",
+			"Name": "Sif",
+			"Aliases": [],
+			"Tags": ["Hero", "Cosmic", "Skill", "Protector", "Asgard", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/DyhtWX0g/sif.png",
+			"Health": 28302,
+			"Damage": 1848,
+			"Armor": 1698,
+			"Focus": 337,
+			"Resistance": 539,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 108,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Fending Strike",
+					"Description": "Attack primary target for 280% damage.\nGain 2 **Deflect**."
+				},
+				"Special": {
+					"Name": "Shield Slam",
+					"Description": "Attack primary target for 340% damage.\nGain **Taunt** and 3 **Counter**.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Whirling Blades",
+					"Description": "Attack primary target for 360% damage.\nRebound chain to 4-5 additional targets for 330% damage.\n**Counter** breaks this Chain.\nIf __Thor__ is an ally, this attack cannot be counterattacked.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Defender of Asgard",
+					"Description": "Gain +35% Block Chance. Gain +15% Block Amount.\nGain +10% Block Chance for each __Asgard__ ally.\nOn Spawn, gain **Defense Up** + 2 **Deflect**.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-minion __Asgard__ ally."
+				}
+			}
+		},
+		{
+			"Id": "spiderman",
+			"Name": "Spider-Man",
+			"Aliases": ["spiderman", "spider man", "peter parker", "spider-verse", "spiderverse", "spider verse"],
+			"Tags": ["Hero", "City", "Bio", "Brawler", "SpiderVerse"],
+			"Portrait_URL": "https://i.postimg.cc/MHsmvR8D/spiderman.png",
+			"Health": 88067,
+			"Damage": 13453,
+			"Armor": 931,
+			"Focus": 2590,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 116,
+			"Dodge Chance": 30,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Agile Attack",
+					"Description": "Attack primary target for 270% damage + 70% chance to Chain up to 1 adjacent target for 60% damage. 60% chance to gain **Evade**.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Web Slinger",
+					"Description": "Attack primary target for 200% damage + Chain to 3 adjacent targets for 160% damage. Apply **Defense Down** to each target for 2 turns.\nThis attack cannot be stopped by **Counter**.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Tangled Web",
+					"Description": "Attack primary target for 500% damage + apply **Stun** and **Slow**.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Spidey-Sense",
+					"Description": "Gain +25% Dodge chance.\nOn Dodge, fill __Spider-Man (Miles)__ and this character's Speed Bar by +10%."
+				}
+			}
+		},
+		{
+			"Id": "spidermanmiles",
+			"Name": "Spider-Man (Miles)",
+			"Aliases": ["miles", "spiderman miles", "ultimate spiderman", "ultimate spider man", "spiderverse", "spider verse", "spider-verse"],
+			"Tags": ["Hero", "City", "Bio", "Brawler", "SpiderVerse"],
+			"Portrait_URL": "https://i.postimg.cc/NMc4VB41/spidermanmiles.png",
+			"Health": 103608,
+			"Damage": 7595,
+			"Armor": 1554,
+			"Focus": 2972,
+			"Resistance": 2611,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 117,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Quick Strike",
+					"Description": "Attack primary target for 280% damage. If the target has **Defense Down**, clear 3 positive effect."
+				},
+				"Special": {
+					"Name": "Venom Shock",
+					"Description": "Attack primary target for 300% damage + change Speed Bar by -50%. Apply **Slow** for 2 turns + prolong all negative effects by 1. Gain **Stealth**.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Web Blast",
+					"Description": "Attack all enemies for 260% damage. Apply **Disrupted** to the primary target for 2 turns. Apply **Disrupted** to 2 additional target.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Ultimate Spidey",
+					"Description": "On Spawn, gain **Stealth**. On Turn, apply **Defense Down** to a random target. If that target already had **Defense Down**, gain **Offense Up** instead. This attack is Unavoidable and cannot be blocked.\nDuring **Stealth**, +50% Dodge Chance."
+				}
+			}
+		},
+		{
+			"Id": "starlord",
+			"Name": "Star-Lord",
+			"Aliases": ["starlord", "quill", "peter quill", "legendary", "guardians", "technerva"],
+			"Tags": ["Hero", "Cosmic", "Tech", "Controller", "Guardian", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/sxfJjmbx/starlord.png",
+			"Health": 93248,
+			"Damage": 9101,
+			"Armor": 6841,
+			"Focus": 2122,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 120,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Element Gun",
+					"Description": "Attack primary target for 310% damage + Chain to 1-2 adjacent targets for 250% damage.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Clever Distraction",
+					"Description": "Grant 2 Ability Energy to random adjacent allies.\nApply **Blind** to primary target and an additional random target + 50% chance to apply to a third target.\nThis ability is Unavoidable.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Elemental Blast",
+					"Description": "Attack primary target for 550% damage. Gain an Assist from a __Guardian__ ally. Always gain an additional Assist from a random ally.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Improvisation",
+					"Description": "On Turn, 50% chance to generate 1-2 Ability Energy for adjacent allies + generate 1-2 Ability Energy to __Guardian__ allies.\n__Guardian__ allies gain +30% Damage.\n__Guardian__ allies gain +20% Speed."
+				}
+			}
+		},
+		{
+			"Id": "storm",
+			"Name": "Storm",
+			"Aliases": ["xmen"],
+			"Tags": ["Hero", "Global", "Mutant", "Controller", "Xmen"],
+			"Portrait_URL": "https://i.postimg.cc/MTmDJNPg/storm.png",
+			"Health": 113969,
+			"Damage": 15425,
+			"Armor": 2488,
+			"Focus": 3608,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 117,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Shocking Blow",
+					"Description": "Attack primary target for 200% damage. If **Charged**, in addition, attack adjacent targets for 150% damage.\nGain +1 **Charged**, up to a maximum of 20."
+				},
+				"Special": {
+					"Name": "Ice Storm",
+					"Description": "Attack all targets for 180% damage + 50% chance to apply **Slow** to each target.\nIf **Charged**, chance to apply **Slow** is increased by +25% per **Charged**. Additionally, 10% chance to apply **Stun** to each target, and chance to apply is increased by +10% per **Charged**. Then lose **Charged**.\nThis attack has +100% Extra Focus and cannot be Dodged.",
+					"Starting Energy": 8,
+					"Energy Cost": 8
+				},
+				"Ultimate": {
+					"Name": "Storm of the Century",
+					"Description": "Attack all targets for 110% damage. Damage is increased by 100% per **Charged**.\nThen lose **Charged**.",
+					"Starting Energy": 10,
+					"Energy Cost": 10
+				},
+				"Passive": {
+					"Name": "Ride the Wind",
+					"Description": "On Turn, 50% chance to apply **Speed Up** to __Xmen__ and __Xforce__ allies.\n50% chance to grant **Assist Now** to self or a random __Xmen__ or __Xforce__ ally on each __Xmen__ or __Xforce__ ally's turn."
+				}
+			}
+		},
+		{
+			"Id": "stryfe",
+			"Name": "Stryfe",
+			"Aliases": [],
+			"Tags": ["Villain", "Global", "Mutant", "Protector", "Marauders"],
+			"Portrait_URL": "https://i.postimg.cc/k5H0DYR6/stryfe.png",
+			"Health": 28302,
+			"Damage": 2458,
+			"Armor": 1494,
+			"Focus": 539,
+			"Resistance": 438,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 88,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Psychic Strike",
+					"Description": "Attack primary target for 300% damage.\nIf the target has **Taunt**, Gain +1 **Taunt**, up to a maximum of 3. Clear **Taunt** from the target.\nIf __Mister Sinister__ is an ally, transfer all positive effects from the primary target to __Mister Sinister__."
+				},
+				"Special": {
+					"Name": "Superiority",
+					"Description": "Gain +1 **Taunt**, up to a maximum of 3.\nGain 3 **Deflect** + Barrier self for 15% of this character's Max Health.\nGenerate 2 Ability Energy for 2 random __Marauders__ allies.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Nullifying Blast",
+					"Description": "Apply **Ability Block** to primary target and adjacent targets.\nAttack primary and adjacent targets for 420% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Grandeur",
+					"Description": "On Spawn, fill +10% Speed Bar + 10% Speed Bar per __Mutant__ __Villain__ ally.\nOn turn, if Taunting, gain +1 **Deflect** up to a maximum of 3.\nWhen an allied __Mister Sinister__ drops below 50% Max Health, gain +1 **Taunt**, up to a maximum of 3 + gain Barrier for 15% of this character's Max Health.\nOn WAR DEFENSE:\n> Gain +50% Resistance.\n> __Mutant__ allies gain +50% Resistance.\n> Gain +50% Focus.\n> __Villain__ allies gain +50% Focus."
+				}
+			}
+		},
+		{
+			"Id": "thanos",
+			"Name": "Thanos",
+			"Aliases": ["inevitable", "technerva"],
+			"Tags": ["Villain", "Cosmic", "Mystic", "Protector", "Eternal", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/m25S4QjZ/thanos.png",
+			"Health": 207216,
+			"Damage": 11614,
+			"Armor": 4850,
+			"Focus": 2122,
+			"Resistance": 1699,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 97,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Power Punch",
+					"Description": "Attack primary target for 200% damage + gain **Counter**."
+				},
+				"Special": {
+					"Name": "Brutal Assault",
+					"Description": "Attack primary target for 350% damage + apply **Offense Down**. Gain **Taunt** for 2 turns.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Energy Bomb",
+					"Description": "Attack all targets for 260% damage + 100% Drain.\nThis attack cannot miss.",
+					"Starting Energy": 4,
+					"Energy Cost": 7
+				},
+				"Passive": {
+					"Name": "Titan Eternal",
+					"Description": "Gain +1000% Extra Resistance while in **Taunt**.\nOn Death of an enemy, generate 2 Ability Energy for self or any adjacent __Cosmic__ ally."
+				}
+			}
+		},
+		{
+			"Id": "thething",
+			"Name": "The Thing",
+			"Aliases": ["rockman", "thing", "fantastic four"],
+			"Tags": ["Hero", "Cosmic", "Bio", "Brawler", "FantasticFour"],
+			"Portrait_URL": "https://i.postimg.cc/xTCPBsKF/thething.png",
+			"Health": 176132,
+			"Damage": 15022,
+			"Armor": 8268,
+			"Focus": 2122,
+			"Resistance": 3332,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 86,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Knuckle Sandwich",
+					"Description": "Attack primary target for 350% damage."
+				},
+				"Special": {
+					"Name": "Pummeling Stone",
+					"Description": "Attack primary target for 280% damage. Bonus Attack 2 times for 220% damage.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Haymaker",
+					"Description": "Attack primary target for 550% damage.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "It's Clobberin' Time",
+					"Description": "When attacked, attack that enemy for 150% damage.\nGain +20% Armor. __FantasticFour__ and __Namor__ allies gain +20% Armor."
+				}
+			}
+		},
+		{
+			"Id": "thor",
+			"Name": "Thor",
+			"Aliases": ["strongest avenger", "odinson", "point break", "lebowski"],
+			"Tags": ["Hero", "Cosmic", "Mystic", "Blaster", "Asgard", "Wave1Avenger", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/L8g38nQt/thor.png",
+			"Health": 124330,
+			"Damage": 14395,
+			"Armor": 6218,
+			"Focus": 1656,
+			"Resistance": 1167,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 80,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Hammer Uppercut",
+					"Description": "Attack primary target for 340% damage."
+				},
+				"Special": {
+					"Name": "Hammer Throw",
+					"Description": "Attack primary target for 300% damage. Chain to 3 adjacent targets for 230% damage.\nDodge breaks this Chain.",
+					"Starting Energy": 3,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Lightning Storm",
+					"Description": "Attack all enemies for 320% damage. Apply **Stun** to primary target + 50% chance to apply **Stun** to all additional targets.",
+					"Starting Energy": 3,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "God of Thunder",
+					"Description": "Gain +15% damage. Gain +10% damage for each __Asgard__ ally.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-minion __Asgard__ ally.\nWhen an enemy attacks an __Asgard__ ally:\n> Change Speed Bar by 5%\n> Gain +1 Charged, up to a maximum of 5.\nOn maximum Charged:\n> Generate +1 Ability Energy for self\n> Attack all enemies for 260% damage.\n> Remove all Charged."
+				}
+			}
+		},
+		{
+			"Id": "ultimus",
+			"Name": "Ultimus",
+			"Aliases": ["kree"],
+			"Tags": ["Vilain", "Cosmic", "Mystic", "Brawler", "Kree", "Eternal"],
+			"Portrait_URL": "https://i.postimg.cc/XvMcG4tT/ultimus.png",
+			"Health": 134691,
+			"Damage": 14424,
+			"Armor": 6528,
+			"Focus": 2122,
+			"Resistance": 2547,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 71,
+			"Dodge Chance": 0,
+			"Block Chance": 20,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Overwhelming Assault",
+					"Description": "Attack primary target for 300% damage + 30% Piercing. 30% chance to apply **Ability Block**, **Defense Down**, and Mind Control 1 enemy to attack the primary target."
+				},
+				"Special": {
+					"Name": "Energy Beam",
+					"Description": "Attack primary target and adjacent enemies for 280% Piercing.\nTransfer all positive effects, excluding **Stealth** and **Taunt**, from each target to self.\nApply **Regeneration** to self and adjacent allies.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Domination",
+					"Description": "If target has **Taunt**, gain **Offense Up** for 1 turn. Attack primary target for 370% damage + Bonus attack for 290% damage per positive effect on target. Flip each positive effect on target to a negative effect.",
+					"Starting Energy": 6,
+					"Energy Cost": 8
+				},
+				"Passive": {
+					"Name": "Kree Eternal",
+					"Description": "On enemy **Taunt**, change Speed Bar by +30%.\nOn Kill, change Speed Bar by +15% for all non-__Kree__ allies + 20% for all __Kree__ allies.\nGain 20% Block chance + 10% Block chance per non-__Minion__ __Kree__ ally. Non-MINION KREE allies gain 20% Block chance.\nGain 20% Max Health. Non-__Minion__ __Kree__ allies gain 20% Max Health."
+				}
+			}
+		},
+		{
+			"Id": "ultron",
+			"Name": "Ultron",
+			"Tags": ["Villain", "Global", "Tech", "Blaster", "Ultron"],
+			"Portrait_URL": "https://i.postimg.cc/g0vy31Wr/ultron.png",
+			"Health": 134691,
+			"Damage": 16462,
+			"Armor": 9325,
+			"Focus": 2122,
+			"Resistance": 3183,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 107,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Disintegration Beam",
+					"Description": "Attack primary target for 340% damage + steal 2 positive effects + clear **Taunt**."
+				},
+				"Special": {
+					"Name": "Factory Upgrade",
+					"Description": "Summon 3 Ultron Minions at 340% normal damage and 100% of normal Health. Apply **Defense Up** to self and all __Ultron__ __Minion__ allies for 2 turns.\nPossible Summons:\n> Ultron Incinerator.\n> Ultron Accelerator.\n> Ultron Fabricator.",
+					"Starting Energy": 7,
+					"Energy Cost": 7
+				},
+				"Ultimate": {
+					"Name": "Purge System",
+					"Description": "Attack primary target for 700% Piercing damage. This ability deals double damage against targets with **Defense Up**. Gain 1 Ability Energy per positive effect on self.",
+					"Starting Energy": 6,
+					"Energy Cost": 8
+				},
+				"Passive": {
+					"Name": "Ultron Prime",
+					"Description": "If Health is full at the start of a match, Revive once with 50% of this character's Max Health.\nOn Kill, this character and all __Villain__ __Tech__ allies have all positive effects prolonged by a duration of 1."
+				}
+			}
+		},
+		{
+			"Id": "venom",
+			"Name": "Venom",
+			"Aliases": ["eddie brock", "spiderverse", "spider-verse", "spider verse"],
+			"Tags": ["Villain", "City", "Bio", "Controller", "SpiderVerse"],
+			"Portrait_URL": "https://i.postimg.cc/d1w26ns6/venom.png",
+			"Health": 155412,
+			"Damage": 9908,
+			"Armor": 931,
+			"Focus": 2441,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 93,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Maul",
+					"Description": "Attack primary target for 230% damage + apply **Bleed** for 1 turn. Flip 2 positive effects to negative effects.\nThis attack cannot be dodged."
+				},
+				"Special": {
+					"Name": "Violate",
+					"Description": "Attack primary target for 380% damage. Apply **Ability Block** and 3 **Bleed** for 2 turns.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Corruption",
+					"Description": "Attack primary target for 230% damage and adjacent targets for 180% damage. Apply **Heal Block** for 2 turns to primary and adjacent targets. Spread all negative effects from the primary target to all adjacent targets.\nThis will not spread **Stun**.",
+					"Starting Energy": 6,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Symbiosis",
+					"Description": "On Turn, Heal for 15% of this character's Max Health + if Health is greater than 95%, gain **Defense Up** for 2 turns\nGain +100% Focus if any __SpiderVerse__ character is present."
+				}
+			}
+		},
+		{
+			"Id": "vision",
+			"Name": "Vision",
+			"Aliases": ["technerva"],
+			"Tags": ["Hero", "Global", "Tech", "Controller", "Avenger", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/gj0vFJ66/vision.png",
+			"Health": 88067,
+			"Damage": 11971,
+			"Armor": 7275,
+			"Focus": 3077,
+			"Resistance": 1196,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 113,
+			"Dodge Chance": 25,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Heavy Hitter",
+					"Description": "Attack primary target for 260% damage + Chain to up to 2 additional targets for 220% damage. Apply **Offense Down** to each target + apply **Bleed** against each __Tech__ enemy.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Dive Bomb",
+					"Description": "Attack primary target for 230% damage + adjacent targets for 160% damage. Apply **Ability Block** to primary target + 1 additional target.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Solar Beam",
+					"Description": "Attack all targets for 250% damage + clear 2 positive effects on each target.\nIf __Scarlet Witch__ is your ally, apply __Bleed__ to each target in addition.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Density Manipulation",
+					"Description": "Gain +25% Extra Dodge chance. Gain **Defense Up** for 2 turns. On Spawn, all __Tech__ allies gain __Defense Up__ for 2 turns."
+				}
+			}
+		},
+		{
+			"Id": "vulture",
+			"Name": "Vulture",
+			"Aliases": ["sinistersix"],
+			"Tags": ["Villain", "City", "Tech", "Brawler", "SpiderVerse", "SinisterSix"],
+			"Portrait_URL": "https://i.postimg.cc/xC5K4Hq2/vulture.png",
+			"Health": 88066,
+			"Damage": 10744,
+			"Armor": 4663,
+			"Focus": 2610,
+			"Resistance": 1635,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 127,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Liftoff",
+					"Description": "Attack primary target for 250% damage + 40% additional damage per negative effect."
+				},
+				"Special": {
+					"Name": "Fight and Flight",
+					"Description": "Attack primary and all adjacent targets for 300% damage + apply **Slow**.\nIf target is a __City__ __Hero__, apply **Offense Down** for 2 turns.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Super Sonic",
+					"Description": "Attack all enemies for 320% damage + change Speed Bar by -25%.",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Scavenger",
+					"Description": "On Spawn, fill 10% Speed Bar. Fill 10% Speed Bar per __City__ __Hero__ enemy.\nOn ally Death, gain **Deflect**.\nOn enemy Death, change Speed Bar by 25%.\nGain +10% Block Chance for each __City__ __Hero__ enemy."
+				}
+			}
+		},
+		{
+			"Id": "warmachine",
+			"Name": "War Machine",
+			"Aliases": ["rhodey"],
+			"Tags": ["Hero", "Global", "Tech", "Avenger", "Blaster", "Military", "PowerArmor", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/RhbwMBcp/warmachine.png",
+			"Health": 93247,
+			"Damage": 11819,
+			"Armor": 8268,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 100,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Railgun",
+					"Description": "Attack primary target and adjacent targets for 140% damage. Apply **Offense Down** to primary target."
+				},
+				"Special": {
+					"Name": "Missile System",
+					"Description": "Attack primary and adjacent targets 3 times for 90% Piercing.\nIf __Iron Man__ is an ally, attack 1 additional time.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Cluster Bombs",
+					"Description": "Attack all enemies for 340% damage.\nDamage is increased by 30% per __Hero__ ally.\nThis attack cannot miss (though it can be dodged).",
+					"Starting Energy": 4,
+					"Energy Cost": 6
+				},
+				"Passive": {
+					"Name": "Integrated Targeting",
+					"Description": "Gain +10% Damage. Gain 5% Piercing. When an enemy drops below 50% Health, they gain **Taunt**.\nIf __Iron Man__ is an ally, gain 30% Crit Damage, gain **Deathproof**, and grant **Deathproof** to __Iron Man__.\nIn War, __War Machine__ gains 30% Damage."
+				}
+			}
+		},
+		{
+			"Id": "wasp",
+			"Name": "Wasp",
+			"Tags": ["Hero", "Global", "Tech", "Blaster", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/DfCrQqtQ/wasp.png",
+			"Health": 90139,
+			"Damage": 11971,
+			"Armor": 4663,
+			"Focus": 2122,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 112,
+			"Dodge Chance": 25,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Sting and Move",
+					"Description": "Attack primary target for 290% damage + 30% chance to Chain to 1 adjacent target for 240% damage.\n**Counter** breaks this Chain."
+				},
+				"Special": {
+					"Name": "Blasters",
+					"Description": "Attack primary target for 250% damage + Bonus attack 1-2 times for 200% damage.\nIf **Charged**, then in addition, **Stun** the target. Then lose **Charged**.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Flight of the Wasp",
+					"Description": "Attack all for 300% damage, including targets in **Stealth**.\nThis attack cannot be stopped by **Counter**.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Shrink",
+					"Description": "On Dodge, gain **Charged**.\nGain +25% Dodge chance."
+				}
+			}
+		},
+		{
+			"Id": "wintersoldier",
+			"Name": "Winter Soldier",
+			"Aliases": ["hydra", "bucky", "white wolf"],
+			"Tags": ["Villain", "Global", "Bio", "Blaster", "Hydra", "Military"],
+			"Portrait_URL": "https://i.postimg.cc/X7pwsrbR/wintersoldier.png",
+			"Health": 103608,
+			"Damage": 15425,
+			"Armor": 6218,
+			"Focus": 2122,
+			"Resistance": 637,
+			"Crit Damage": 130,
+			"Crit Chance": 25,
+			"Speed": 91,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Winter Assault",
+					"Description": "Attack primary target for 290% damage and 25% Piercing."
+				},
+				"Special": {
+					"Name": "Relentless Assassin",
+					"Description": "Attack primary target for 200% damage + apply **Bleed**. 70% chance to Bonus attack up to 2 times for 150% damage + 50% chance to apply **Bleed**.",
+					"Starting Energy": 0,
+					"Energy Cost": 0
+				},
+				"Ultimate": {
+					"Name": "Mechanical Arm",
+					"Description": "Attack primary target for 630% damage + apply **Heal Block** for 2 turns.",
+					"Starting Energy": 0,
+					"Energy Cost": 0
+				},
+				"Passive": {
+					"Name": "Expert Assassin",
+					"Description": "Gain +15% Crit chance. Apply +10% Crit chance to _Hydra__ allies."
+				}
+			}
+		},
+		{
+			"Id": "wolverine",
+			"Name": "Wolverine",
+			"Aliases": ["logan", "wolvie", "xmen"],
+			"Tags": ["Hero", "Global", "Mutant", "Brawler", "Xmen"],
+			"Portrait_URL": "https://i.postimg.cc/KvwtwmcR/wolverine.png",
+			"Health": 134691,
+			"Damage": 10745,
+			"Armor": 1244,
+			"Focus": 1699,
+			"Resistance": 1061,
+			"Crit Damage": 130,
+			"Crit Chance": 20,
+			"Speed": 95,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Adamantium Claws",
+					"Description": "Attack primary target for 240% Piercing + apply **Bleed** on Crit."
+				},
+				"Special": {
+					"Name": "Slice and Dice",
+					"Description": "Attack primary target for 150% Piercing + apply **Bleed** on Crit. Chain to 4 targets for 120% Piercing + apply **Bleed** on Crit.\n**Counter** breaks this Chain.",
+					"Starting Energy": 4,
+					"Energy Cost": 4
+				},
+				"Ultimate": {
+					"Name": "Primal Berserker",
+					"Description": "Attack primary target for 700% Piercing damage. If __Colossus__ is an ally, attack primary target for 800% Piercing damage instead.\nOn Crit, apply **Bleed**.\nIf this character's Max Health is below 50%:\n> Gain **Offense Up** for 2 turns.\n> This attack is Unavoidable.",
+					"Starting Energy": 2,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Healing Factor",
+					"Description": "On Turn, Heal for 20% of this character's Max Health.\nOn Death, 5% chance to Revive with 20% of this character's Max Health. If at least one ally is __Xmen__, gain an additional 5% chance to Revive."
+				}
+			}
+		},
+		{
+			"Id": "yondu",
+			"Name": "Yondu",
+			"Aliases": ["mary poppins", "daddy", "ravager"],
+			"Tags": ["Villain", "Cosmic", "Mystic", "Support", "Ravager", "GalacticHeroes"],
+			"Portrait_URL": "https://i.postimg.cc/7ZzSyjbX/yondu.png",
+			"Health": 98428,
+			"Damage": 13453,
+			"Armor": 3109,
+			"Focus": 2547,
+			"Resistance": 2122,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 112,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 130,
+			"Abilities": {
+				"Basic": {
+					"Name": "Jagged Edge",
+					"Description": "Attack primary target for 200% damage and 25% Piercing. Clear 2 positive effects from target."
+				},
+				"Special": {
+					"Name": "Boarding Party",
+					"Description": "Summon 1-2 __Ravager__ allies at 340% normal damage and 100% of normal Health. Apply Offense Up to all __Ravager__ allies for 1 turn.",
+					"Starting Energy": 0,
+					"Energy Cost": 3
+				},
+				"Ultimate": {
+					"Name": "Yaka Arrow",
+					"Description": "Chain to all enemies who aren't **Stealth** for 250% Undodgeable Piercing.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Centauri Hunter",
+					"Description": "On Turn, choose 2 random enemies. If they have a positive effect, copy the positive effect to self. Clear the positive effect from the enemy.\n__Ravager__ allies gain +5% damage."
+				}
+			}
+		},
+		{
+			"Id": "yoyo",
+			"Name": "Yo-Yo",
+			"Aliases": [],
+			"Tags": ["Hero", "Global", "Bio", "Protector", "Shield", "Inhuman"],
+			"Portrait_URL": "https://i.postimg.cc/nzQ6mKqd/yoyo.png",
+			"Health": 23408,
+			"Damage": 2033,
+			"Armor": 1060,
+			"Focus": 570,
+			"Resistance": 482,
+			"Crit Damage": 130,
+			"Crit Chance": 10,
+			"Speed": 140,
+			"Dodge Chance": 0,
+			"Block Chance": 0,
+			"Block Amount": 25,
+			"Accuracy": 100,
+			"Abilities": {
+				"Basic": {
+					"Name": "Rapid Strikes",
+					"Description": "Attack primary target for 230% damage + clear **Counter**.\nGain an Assist from a random __Inhuman__ ally.\nThis attack cannot be counterattacked."
+				},
+				"Special": {
+					"Name": "Flurry",
+					"Description": "Attack primary target for 170% damage + Bonus attack 2 times for 170% damage.\nRepeat this attack on 3 additional random targets.\nThis attack cannot be counterattacked.",
+					"Starting Energy": 5,
+					"Energy Cost": 5
+				},
+				"Ultimate": {
+					"Name": "Run the Gauntlet",
+					"Description": "Attack all enemies for 270% damage. Grant 1 ability energy to all __Inhuman__ allies.",
+					"Starting Energy": 3,
+					"Energy Cost": 5
+				},
+				"Passive": {
+					"Name": "Swift Protector",
+					"Description": "On enemy turn, if this character has no other __Protector__ allies, apply **Offense Down** to that enemy. This cannot be dodged.\nOn ally non-__Minion__ __Shield__ or __Inhuman__ turn, 50% chance to apply **Evade** to that ally.\nOn Spawn, apply **Defense Up** to self and all non-__Minion__ __Shield__ or __Inhuman__ allies.\nWhen a non-__Minion__ __Shield__ or __Inhuman__ ally drops below 50% Health, apply **Defense Up** to that ally.\nGain +25% Dodge chance.\nGain +10% Focus per non-__Minion__ __Shield__ and __Inhuman__ ally."
+				}
+			}
+		}
+	],
+	"Tags": [
+		{
+			"Name": "Side",
+			"Tags": ["Hero", "Villain"]
+		},
+		{
+			"Name": "Trait",
+			"Tags": ["Bio", "Mutant", "Mystic", "Skill", "Tech"]
+		},
+		{
+			"Name": "Origin",
+			"Tags": ["Asgard", "City", "Cosmic", "Global"]
+		},
+		{
+			"Name": "Team",
+			"Tags": [
+				"Aim",
+				"Avenger",
+				"Brotherhood",
+				"Defender",
+				"FantasticFour",
+				"Guardian",
+				"Hand",
+				"Hydra",
+				"Kree",
+				"Marauders",
+				"Mercenary",
+				"Ravager",
+				"Shield",
+				"SinisterSix",
+				"SpiderVerse",
+				"Wave1Avenger",
+				"Xmen",
+				"Xforce"
+			]
+		},
+		{
+			"Name": "Role",
+			"Tags": ["Blaster", "Brawler", "Controller", "Protector", "Support"]
+		},
+		{
+			"Name": "Other",
+			"Tags": ["Eternal", "Inhuman", "MartialArtist", "Minion", "Mutant", "Military", "PowerArmor", "Supernatural", "GalacticHeroes"]
+		}
+	],
+	"Teams": [
+		{
+			"Name": "A.I.M.",
+			"Characters": ["A.I.M. Security", "A.I.M. Infector", "A.I.M. Monstrosity", "A.I.M. Researcher", "A.I.M. Assault", "Graviton", "Scientist Supreme"],
+			"Counters_URL": "https://i.postimg.cc/DwmNXkkv/aim.jpg"
+		},
+		{
+			"Name": "Asgardians",
+			"Characters": ["Heimdell", "Hela", "Loki", "Sif", "Thor"],
+			"Counters_URL": "https://i.postimg.cc/Qx8wjKfW/asgardians.jpg",
+			"T4MatPrio_URL": "https://i.postimg.cc/prKB8vRS/asgardianst4.jpg"
+		},
+		{
+			"Name": "Avengers",
+			"Characters": ["Captain America", "Black Widow", "Black Panther", "Ant-Man", "Hawkeye", "Falcon", "Hulk", "Iron Man", "Scarlett Witch", "Thor", "Vision", "War Machine"],
+			"Counters_URL": "https://i.postimg.cc/vTMjg4Mk/avengers.jpg"
+		},
+		{
+			"Name": "Brawlers",
+			"Characters": ["Ms. Marvel", "Gamora", "Captain Marvel", "Spider-Man", "Spider-Man (Miles)", "Deadpool", "America Chavez"],
+			"Counters_URL": "https://i.postimg.cc/PqY2Wd6j/brawlers.jpg"
+		},
+		{
+			"Name": "Brotherhood",
+			"Characters": ["Magneto", "Juggernaut", "Pyro", "Mystique", "Sabretooth"],
+			"Counters_URL": "https://i.postimg.cc/wBCnzWr6/brotherhood.jpg",
+			"UniqueItems_URL": "https://i.postimg.cc/85VPJrWJ/brotherhood.png",
+			"T4MatPrio_URL": "https://i.postimg.cc/TYCrGTmv/brotherhood.jpg"
+		},
+		{
+			"Name": "Defenders",
+			"Aliases": ["punfenders"],
+			"Characters": ["Luke Cage", "Daredevil", "Iron Fist", "Jessica Jones", "Punisher", "Ms. Marvel"],
+			"Counters_URL": "https://i.postimg.cc/T3Zt5KJ0/defenders.jpg",
+			"UniqueItems_URL": "https://i.postimg.cc/XNL7qqvq/punfenders.png",
+			"T4MatPrio_URL": "https://i.postimg.cc/JhBJbJFR/defenders.jpg"
+		},
+		{
+			"Name": "Fantastic Four",
+			"Characters": ["Human Torch", "Invisible Woman", "Mister Fantastic", "Namor", "The Thing"],
+			"Counters_URL": "https://i.postimg.cc/fR3Hbcmk/fantasticfour.jpg"
+		},
+		{
+			"Name": "Guardians",
+			"Aliases": ["gotg"],
+			"Characters": ["Drax", "Starlord", "Gamora", "Groot", "Rocket Racoon", "Mantis"],
+			"Counters_URL": "https://i.postimg.cc/kXg1035Q/guardians.jpg",
+			"UniqueItems_URL": "https://i.postimg.cc/Nf0GHty4/guardians.png",
+			"T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
+		},
+		{
+			"Name": "Kree",
+			"Characters": ["Captain Marvel", "Korath the Pursuer", "Kree Royal Guard", "Kree Reaper", "Kree Oracle", "Kree Cyborg", "Kree Noble", "Minn-erva", "Ronan the Accuser", "Ultimus"],
+			"Counters_URL": "https://i.postimg.cc/kXY191Vk/kree.jpg",
+			"T4MatPrio_URL": "https://i.postimg.cc/qqQCkGNx/kree.jpg"
+		},
+		{
+			"Name": "Marauders",
+			"Characters": ["Mister Sinister", "Mystique", "Sabretooth", "Stryfe"],
+			"Counters_URL": "https://i.postimg.cc/2y2H1T0L/marauders.jpg"
+		},
+		{
+			"Name": "Power Armor",
+			"Aliases": ["iron legion", "machines"],
+			"Characters": ["Iron Man", "Rescue", "Falcon", "War Machine", "Vision"],
+			"Counters_URL": "https://i.postimg.cc/g0ZBgV21/powerarmour.jpg",
+			"T4MatPrio_URL": "https://i.postimg.cc/HnTyDNkL/powerarmor.jpg"
+		},
+		{
+			"Name": "S.H.I.E.L.D.",
+			"Aliases": ["shield", "agents of shield"],
+			"Characters": ["Nick Fury", "S.H.I.E.L.D. Security", "S.H.I.E.L.D. Assault", "S.H.I.E.L.D. Medic", "S.H.I.E.L.D. Operative", "S.H.I.E.L.D. Trooper"],
+			"Counters_URL": "https://i.postimg.cc/Pf4VVrdf/shield.jpg",
+			"UniqueItems_URL": "https://i.postimg.cc/bwDzmR9S/Shield.png",
+			"T4MatPrio_URL": "https://i.postimg.cc/RCTtQvgJ/shield.jpg"
+		},
+		{
+			"Name": "Coulson S.H.I.E.L.D.",
+			"Aliases": ["coulson"],
+			"Characters": ["Agent Coulson", "Nick Fury", "S.H.I.E.L.D. Security", "S.H.I.E.L.D. Assault", "S.H.I.E.L.D. Medic", "S.H.I.E.L.D. Operative", "S.H.I.E.L.D. Trooper"],
+			"Counters_URL": "https://i.postimg.cc/0QGXs9mf/shieldcoulson.jpg",
+			"UniqueItems_URL": "https://i.postimg.cc/bwDzmR9S/Shield.png",
+			"T4MatPrio_URL": "https://i.postimg.cc/RCTtQvgJ/shield.jpg"
+		},
+		{
+			"Name": "Sinister Six",
+			"Aliases": ["sinistersix", "sinister6"],
+			"Characters": ["Green Goblin", "Mysterio", "Rhino", "Shocker", "Vulture"],
+			"Counters_URL": "https://i.postimg.cc/4yJL4jQT/sinistersix.jpg"
+		},
+		{
+			"Name": "SpiderVerse",
+			"Aliases": ["spider-verse", "spider verse"],
+			"Characters": ["Spider-Man", "Spider-Man (Miles)", "Venom", "Carnage", "Green Goblin"],
+			"Counters_URL": "https://i.postimg.cc/d3Bf8JV1/spiderverse.jpg",
+			"T4MatPrio_URL": "https://i.postimg.cc/L8WLYvNy/spiderverse.jpg"
+		},
+		{
+			"Name": "Supernatural",
+			"Characters": ["Mordo", "Dr Strange", "Elsa Bloodstone", "Ghost Rider", "Scarlett Witch"],
+			"Counters_URL": "https://i.postimg.cc/tTGvws1J/supernatural.jpg"
+		},
+		{
+			"Name": "Technerva",
+			"Aliases": ["minntech", "groot-tech", "minn-guardians", "bkt"],
+			"Characters": ["Minn-erva", "Thanos", "Drax", "Starlord", "Vision", "Rocket Racoon", "Groot"],
+			"Counters_URL": "https://i.postimg.cc/vZjN7qbW/technerva.jpg",
+			"T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
+		},
+		{
+			"Name": "X-Men",
+			"Aliases": ["xmen", "x men"],
+			"Characters": ["Phoenix", "Colossus", "Psylocke", "Storm", "Wolverine", "Beast", "Cyclops"],
+			"Counters_URL": "https://i.postimg.cc/8kBx8mmS/xmen.jpg",
+			"UniqueItems_URL": "https://i.postimg.cc/MKr60LV8/Xmen.png",
+			"T4MatPrio_URL": "https://i.postimg.cc/ZRtNjnkp/xmen.jpg"
+		},
+		{
+			"Name": "Wakandans",
+			"Characters": ["Shuri", "M'Baku", "Black Panther", "Okoye", "Killmonger"],
+			"Counters_URL": "https://i.postimg.cc/Hs6KnWNv/wakandans.jpg",
+			"UniqueItems_URL": "https://i.postimg.cc/Y0dpsnPY/wakandans.png",
+			"T4MatPrio_URL": "https://i.postimg.cc/B6TKz3sy/wakandans.jpg"
+		},
+		{
+			"Name": "Ultron",
+			"Characters": ["Ultron"],
+			"Counters_URL": "https://i.postimg.cc/bJ1WwxX1/ultron.jpg"
+		}
+	],
+	"Effects": [
+		{
+			"Category": "Positive",
+			"Name": "Counter",
+			"Description": "Upon being attacked by an enemy, attack them back.",
+			"Expires": "On Counter",
+			"Opposite": "Bleed"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Deathproof",
+			"Description": "Attacks that would defeat this character instead reduce Health to 1.",
+			"Expires": "On Deathproof consumed",
+			"Opposite": "Bleed"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Immunity",
+			"Description": "Additional negative effects cannot be applied to this character",
+			"Expires": "On end of turn",
+			"Opposite": "Disrupted"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Defense Up",
+			"Description": "Decrease incoming damage by 50%. Increase resistance by 50%.",
+			"Expires": "On end of turn",
+			"Opposite": "Defense Down"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Deflect",
+			"Description": "Block the next attack",
+			"Expires": "On Block",
+			"Opposite": "Bleed"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Evade",
+			"Description": "Dodge the next attack.",
+			"Expires": "On Evade",
+			"Opposite": "Bleed"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Regeneration",
+			"Description": "Heal by 10% of the source character's max health.",
+			"Expires": "Start of turn",
+			"Opposite": "Bleed"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Offense Up",
+			"Description": "Increase outgoing damage by 50%.Increase focus by 50%.",
+			"Expires": "End of turn",
+			"Opposite": "Offense Down"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Speed Up",
+			"Description": "Increase speed by 50%",
+			"Expires": "End of turn",
+			"Opposite": "Slow"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Stealth",
+			"Description": "Stealth characters cannot be targeted if other targets are available.",
+			"Expires": "End of turn",
+			"Opposite": "Bleed"
+		},
+		{
+			"Category": "Positive",
+			"Name": "Taunt",
+			"Description": "Taunting characters must be targeted first.",
+			"Expires": "Start of turn",
+			"Opposite": "Bleed"
+		},
+		{
+			"Category": "Negative",
+			"Name": "Ability Block",
+			"Description": "Cannot use Special or Ultimate abilities.",
+			"Expires": "On end of turn.",
+			"Opposite": "Evade"
+		},
+		{
+			"Category": "Negative",
+			"Name": "Blind",
+			"Description": "Decrease accuracy by 100%.",
+			"Expires": "End of turn",
+			"Opposite": "Stealth"
+		},
+		{
+			"Category": "Negative",
+			"Name": "Disrupted",
+			"Description": "Additional positive effects cannot be applied to this character.",
+			"Expires": "End of turn",
+			"Opposite": "Immunity"
+		},
+		{
+			"Category": "Negative",
+			"Name": "Defense Down",
+			"Description": "Increase incoming damage by 50%. Decrease resistance by 50%.",
+			"Expires": "End of turn",
+			"Opposite": "Defense Up"
+		},
+		{
+			"Category": "Negative",
+			"Name": "Bleed",
+			"Description": "Take damage equal to a percentage of the source character's damage.",
+			"Expires": "Start of turn",
+			"Opposite": "Regeneration"
+		},
+		{
+			"Category": "Negative",
+			"Name": "Heal Block",
+			"Description": "Cannot be healed.",
+			"Expires": "End of turn",
+			"Opposite": "Deathproof"
+		},
+		{
+			"Category": "Negative",
+			"Name": "Offense Down",
+			"Description": "Decrease outgoing damage by 50%. Decrease focus by 50%.",
+			"Expires": "End of turn",
+			"Opposite": "Offense Up"
+		},
+		{
+			"Category": "Negative",
+			"Name": "Slow",
+			"Description": "Decrease speed by 50%.",
+			"Expires": "End of turn",
+			"Opposite": "Speed Up"
+		},
+		{
+			"Category": "Negative",
+			"Name": "Stun",
+			"Description": "Miss next turn. *Cannot Dodge or Block while stunned*.",
+			"Expires": "End of turn",
+			"Opposite": "Counter"
+		}
+	]
+}
